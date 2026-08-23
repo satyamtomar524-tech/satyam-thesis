@@ -1,0 +1,56 @@
+# Restricted local source material
+data/raw/**
+!data/raw/README.md
+private/
+confidential/
+
+# Known local thesis and official binary files
+/01_MASTER_THESIS.docx
+/02_ANALYSIS_WORKBOOK.xlsx
+/05_OFFICIAL_CONFIRMATION.pdf
+
+# Existing controlled local thesis notes pending an explicit publication review
+/00_START_HERE.md
+/03_COMPLIANCE_CHECKLIST.md
+/THESIS_FOUNDATION.md
+
+# Office temporary files
+~$*
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated logs and caches
+*.log
+.cache/
+dist/
+build/

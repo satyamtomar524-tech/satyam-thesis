@@ -1,0 +1,21 @@
+* text=auto
+
+*.md text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.py text eol=lf
+*.r text eol=lf
+*.R text eol=lf
+*.sql text eol=lf
+*.ipynb text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pbix binary
+*.sav binary
+*.knwf binary
