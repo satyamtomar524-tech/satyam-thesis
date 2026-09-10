@@ -1,6 +1,6 @@
 # Thesis finalisation progress
 
-Updated 10 September 2026. Status: active; not submission-ready.
+Updated 11 September 2026. Status: active; not submission-ready.
 
 ## Objective and authority
 
@@ -18,6 +18,8 @@ The registered thesis title remains unchanged. Submission, publication permissio
 - Review every section and citation, verify the final rendered Word and PDF versions, and reconcile the submission requirements.
 
 ## Work completed in this phase
+
+The dated/versioned entries below preserve the sequence of work. The latest accepted working successor is v16; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state.
 
 The new date-sensitivity implementation and synthetic regression tests are in `04_ANALYSIS/12_FINALISATION_20260910/`. The implementation reads the retained review files without changing them. It compares the non-temporal eligible population with a population restricted to recorded capability-publication intervals wholly inside the study window. Tests cover partial dates, cutoff boundaries, invalid dates, event dates, duplicate claims, missing evidence and empty graph denominators.
 
@@ -61,6 +63,20 @@ The first results proof exposed small chart text, a network-label overlap and aw
 
 Thirty-two synthetic regression tests now pass, including seven reporting tests. The separate primary/family/binary/inherited audit was rerun and all fifteen assertions passed. These checks do not constitute complete semantic source verification or independent checking of the other sensitivity runs. The numerical tables were reopened from the saved DOCX and matched to their generated source rows. The abstract, Chapters 5-6, appendices, remaining Chapter 3 terminology, AI-use record and full citation audit remain unfinished.
 
+## Narrative reconciled with the corrected results
+
+The current Word successor is v16. The narrative integration changed eighty-six body paragraphs and seven tables relative to v13. It reconciles the abstract, discussion, conclusion, appendix and selected earlier construction/method passages with the V4 evidence model and results. It preserves the corrected Chapter 4 tables and figure assets, all twenty-six native mathematical objects, section geometry and historical source files.
+
+Capability support and BMW-relationship support are now reported as independent decisions throughout the revised narrative, with exact association kept separate. Canonical claims, eligible claims, suppliers and category memberships have distinct denominators. The discussion and conclusion state the non-temporal scope of the larger primary population and the dependence of structural profiles on category definitions. They do not infer BMW-internal visibility, operational coordination difficulty or supplier priority from public evidence.
+
+The combined visibility-complexity question remains unestimated. The revised explanation identifies the missing validated measurement bridge as a limitation of this implemented design. It no longer claims that joining different observational levels is inherently invalid, or treats routine permission to analyse as measurement validation. The conclusion also avoids claiming that the framework's organisational usefulness has been independently validated.
+
+The proof review corrected an awkward appendix header, justified table spacing and four answer paragraphs whose emphasis had spread from their labels to their entire text. The AI-use register now covers the correction work while explicitly retaining the unfinished source audit and personal-review requirements. Official declaration wording remains unsigned and is not certified as fulfilled. The displayed word count remains historical and flagged for recomputation.
+
+Word exported a 97-page v16 proof. This batch covers forty-three current pages: eleven directly inspected and thirty-two with verified pixel identity to inspected predecessor pages. The covered pages are readable, including the revised conclusion, appendix and declaration tables. The unavailable LibreOffice renderer and Word's post-export close warning remain documented; the exported PDF and unchanged source hash were verified. Whole-document visual acceptance remains pending.
+
+Thirty-two synthetic regression tests passed again. Saved-document checks preserve every Chapter 4 table, all figures and equations, unchanged source hashes and existing comment references. This is not a complete citation audit, universal source verification or final document acceptance. The detailed render-review record remains local with the restricted manuscript validation files.
+
 ## Completion requirements
 
 | Requirement | Current status | Evidence needed for completion |
@@ -69,7 +85,7 @@ Thirty-two synthetic regression tests now pass, including seven reporting tests.
 | Each retained empirical claim supported | In progress | Claim-specific source review with identity, technology, relationship, date and distinctness decisions |
 | Method choices justified | In progress | Explicit constructs, eligibility rules, formulas, assumptions and sensitivity rationale |
 | Calculations verified | In progress | Independent recomputation from selected rows and relevant boundary tests |
-| Results, figures and conclusions consistent | Chapter 4 integrated; remaining chapters pending | Cross-artifact reconciliation against the final selected dataset |
+| Results, figures and conclusions consistent | V4 results and narrative integrated; final audit pending | Final cross-artifact reconciliation after source/citation review |
 | Academic citations support their passages | Pending full audit | Full-text support and accurate bibliographic and pinpoint information |
 | Word and PDF ready | Not ready | Final pagination, complete visual review, cross-references and word-count verification |
 | Declarations and submission requirements | Open | Accurate AI-use record, student review and required personal/official confirmations |
@@ -84,6 +100,6 @@ The repository is private, but privacy does not itself establish university or t
 
 Use the current local finalisation evidence alongside the September 7 correction snapshot. Do not infer that an old `DONE`, `PASS` or manuscript filename means that finalisation is complete. Computational checks do not independently verify source meaning, and completed source checks do not establish student understanding.
 
-The current successor ledger and results are under `04_ANALYSIS/12_FINALISATION_20260910/local/v4/`; independent checks are versioned under `independent/`. These restricted folders are intentionally not in GitHub. Use the new ledger for subsequent integration, while preserving V2 and V3 as historical comparisons. The manuscript working copy is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v13_WORKING.docx`; earlier versions remain historical checkpoints. Complete Chapter 4 reporting data, figure sources and integration validation are under `local/v12_results/`; the directory name records the first build, and `integration_validation_v13.json` identifies the accepted successor. The older Markdown insertion is no longer the complete table source. The next major task is to reconcile the abstract, discussion, conclusion and appendices against Chapter 4, then complete source/citation and whole-document verification.
+The current successor ledger and results are under `04_ANALYSIS/12_FINALISATION_20260910/local/v4/`; independent checks are versioned under `independent/`. These restricted folders are intentionally not in GitHub. Use the new ledger for subsequent integration, while preserving V2 and V3 as historical comparisons. The manuscript working copy is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v16_WORKING.docx`; earlier versions remain historical checkpoints. Complete Chapter 4 reporting data, figure sources and integration validation are under `local/v12_results/`; the directory name records the first build, and `integration_validation_v13.json` identifies the preserved results integration. Narrative provenance is recorded in `local/v15_narrative_validation.json`, with the subsequent scoped conclusion repair in `local/v16_conclusion_validation.json`. The older Markdown insertion is no longer the complete table source. Next, complete the source/citation and section-by-section argument audit, followed by final navigation, word-count, declaration and whole-document verification.
 
 GitHub's draft PR has been updated through the connected repository tools and normal pushes. The canonical readiness watcher was attempted and returned `required command not found: gh`. It did not verify GitHub checks or reviews, and no landing approval or merge was attempted. This tooling limitation does not block independent thesis revision.
