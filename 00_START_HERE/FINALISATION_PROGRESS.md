@@ -27,6 +27,16 @@ An independent implementation has reproduced every primary supplier's four indic
 
 Manuscript-source insertions for the date test and mathematical definitions, including a hypothetical worked example, are saved locally under `02_MANUSCRIPT_APA/revision_source/`. They still require integration into the Word manuscript and final cross-artifact verification.
 
+### Versioned evidence correction and manuscript work
+
+A targeted live-source check found that an industry-directory classification had been interpreted as proof of an exact manufacturing process. That candidate is now held outside primary eligibility in a new local successor ledger, without deleting the candidate or rewriting the historical evidence. Six other derived technology descriptions were narrowed to the distinct functions supported by their sources. These wording amendments do not add claims or change numerical eligibility.
+
+The successor recalculation rebuilds all retained network specifications and eighteen analytical runs. A separate implementation independently reconstructed eligibility and reproduced every primary supplier indicator, percentile, score and profile, plus the complete family-grain, binary-weight and inherited-origin sensitivity runs. The other sensitivity runs have been recalculated but not independently verified. Seventeen synthetic regression tests pass. These checks establish the stated computational scope, not universal source verification.
+
+The local working manuscript now corrects the theoretical overstatement about joint priorities and removes the unsupported implication that the student has already reviewed the revised work. Only those two passages changed; the remainder still awaits full integration. The registered title and historical review copies are preserved. The revised date-results insertion has been refreshed against the successor calculation.
+
+Word exported the working copy as a 92-page internal proof. The two changed pages were visually inspected and are readable, but the whole manuscript has not passed final visual review. The packaged renderer could not run because LibreOffice is unavailable. Word's export completed, then its document-close call returned an RPC-disconnection error; a separate check confirmed a valid PDF and unchanged source DOCX. Neither the proof nor the working DOCX is a final deliverable.
+
 ## Completion requirements
 
 | Requirement | Current status | Evidence needed for completion |
@@ -49,3 +59,5 @@ The repository is private, but privacy does not itself establish university or t
 ## Resume
 
 Use the current local finalisation evidence alongside the September 7 correction snapshot. Do not infer that an old `DONE`, `PASS` or manuscript filename means that finalisation is complete. Computational checks do not independently verify source meaning, and completed source checks do not establish student understanding.
+
+The current successor ledger and results are under `04_ANALYSIS/12_FINALISATION_20260910/local/v3/`; independent checks are under `independent/v3/`. These restricted folders are intentionally not in GitHub. Use the new ledger for subsequent integration, while preserving the September 7 results as historical comparisons. The manuscript working copy is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v9_WORKING.docx`; do not resume authoring from the older v8 without carrying forward its two verified corrections.
