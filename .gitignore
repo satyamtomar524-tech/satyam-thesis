@@ -28,6 +28,9 @@ venv/
 .mypy_cache/
 .ruff_cache/
 
+# Bundled local artifact runtime junction
+/node_modules/
+
 # Jupyter
 .ipynb_checkpoints/
 
@@ -54,3 +57,88 @@ Thumbs.db
 .cache/
 dist/
 build/
+
+# Organized thesis: local-only and restricted material
+/00_START_HERE/PROJECT_FILE_INDEX.xlsx
+/THESIS_CONTROL_CENTER.xlsx
+/01_ADMIN_AND_GUIDELINES/**
+/02_MANUSCRIPT_APA/**
+/03_DATA_AND_EVIDENCE/00_RAW_READ_ONLY/**
+/03_DATA_AND_EVIDENCE/01_FINAL_MASTER/*.xlsx
+/03_DATA_AND_EVIDENCE/02_SOURCE_LIBRARY/**
+/03_DATA_AND_EVIDENCE/03_DOCUMENTATION/**
+/04_ANALYSIS/02_DATA_PREPARATION/B1_TAXONOMY_REVIEW_REGISTER.xlsx
+/04_ANALYSIS/02_DATA_PREPARATION/B2_DATE_COMPLETENESS_AUDIT.xlsx
+/04_ANALYSIS/02_DATA_PREPARATION/B4_DENOMINATOR_REGISTER.xlsx
+/04_ANALYSIS/03_DESCRIPTIVE_STATISTICS/C1_DESCRIPTIVE_STATISTICS_WORKING.xlsx
+/04_ANALYSIS/04_TECHNOLOGY_CATEGORY_COMPARISONS/C2_TECHNOLOGY_CATEGORY_COMPARISONS_WORKING.xlsx
+/04_ANALYSIS/05_NETWORK_ANALYSIS/C3_SUPPLIER_TECHNOLOGY_NETWORK_WORKING.xlsx
+/04_ANALYSIS/06_COORDINATION_COMPLEXITY_SCORES/C4_COORDINATION_COMPLEXITY_SCORES_WORKING.xlsx
+/04_ANALYSIS/07_SENSITIVITY_ANALYSIS/C5_SENSITIVITY_TESTS_WORKING.xlsx
+/05_TABLES_AND_FIGURES/TABLES/D1_FINAL_ANALYTICAL_TABLES.xlsx
+/05_TABLES_AND_FIGURES/FIGURES/D2_FINAL_ANALYTICAL_CHARTS.xlsx
+/05_TABLES_AND_FIGURES/FIGURES/D3_FINAL_NETWORK_FIGURE.xlsx
+# Local learning and employer-portfolio outputs remain untracked until the
+# student confirms ISM/BMW external-publication requirements.
+/05_TABLES_AND_FIGURES/PORTFOLIO/THESIS_PROOF_AND_EMPLOYER_EVIDENCE_REGISTER.xlsx
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_INTERVIEW_WALKTHROUGH.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_INTERVIEW_WALKTHROUGH_v2.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_PORTFOLIO_INDEX.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_PORTFOLIO_INDEX_v2.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/Public_Evidence_Supplier_Technology_Analytics_Employer_One_Page_v*.docx
+/05_TABLES_AND_FIGURES/PORTFOLIO/Public_Evidence_Supplier_Technology_Analytics_Employer_One_Page_v*.pdf
+/05_TABLES_AND_FIGURES/PORTFOLIO/Public_Evidence_Supplier_Technology_Analytics_Employer_One_Page_v*_QA.json
+/outputs/01a02e01-22a3-7ea0-97d2-73f8c85e186b/THESIS_PROOF_AND_EMPLOYER_EVIDENCE_REGISTER_v*.xlsx
+/outputs/01a02e01-22a3-7ea0-97d2-73f8c85e186b/THESIS_PROOF_AND_EMPLOYER_EVIDENCE_REGISTER_v*.xlsx.inspect.ndjson
+/outputs/01a02e01-22a3-7ea0-97d2-73f8c85e186b/THESIS_PROOF_AND_EMPLOYER_EVIDENCE_REGISTER_v*_QA.json
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Beyond_Blind_Spots_Beginner_Visual_Guide_CANVA_IMPORT.pptx
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Beyond_Blind_Spots_Beginner_Visual_Guide_CANVA_IMPORT.pptx.inspect.ndjson
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Beyond_Blind_Spots_Beginner_Visual_Guide_CANVA_IMPORT/
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study.pptx
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study.pptx.inspect.ndjson
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study.sources.txt
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v2.pptx
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v2.pptx.inspect.ndjson
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v2.sources.txt
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Beyond_Blind_Spots_Thesis_Explainer_Canva_v*.html
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Beyond_Blind_Spots_Thesis_Explainer_Canva_v*_QA.json
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_INTERVIEW_WALKTHROUGH_v3.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_INTERVIEW_WALKTHROUGH_v4.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_PORTFOLIO_INDEX_v3.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_PORTFOLIO_INDEX_v4.md
+/05_TABLES_AND_FIGURES/PORTFOLIO/EMPLOYER_PORTFOLIO_INDEX_v4_QA.json
+/05_TABLES_AND_FIGURES/TABLES/D1_D4_CURRENT_STATUS_COVER_NOTE_v1.md
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v3.pptx
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v3.pptx.inspect.ndjson
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v3.sources.txt
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v3_QA.json
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v4.pptx
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v4.pptx.inspect.ndjson
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v4_QA.json
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v*.pdf
+/05_TABLES_AND_FIGURES/PRESENTATIONS/Public_Evidence_Supplier_Technology_Analytics_Employer_Case_Study_v*_PDF_QA.json
+/outputs/01a02e01-22a3-7ea0-97d2-73f8c85e186b/THESIS_PROOF_AND_EMPLOYER_EVIDENCE_REGISTER_v*_QA.json
+# C6/D3 Gephi working inputs, projects, coordinates, and exploratory exports remain local.
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.csv
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.gexf
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.graphml
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.gml
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.net
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.gephi
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.json
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.png
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.svg
+/04_ANALYSIS/08_GEPHI_VISUALISATION/*.pdf
+# D4 row-level rerun exports and the detailed local QA workbook remain local.
+/04_ANALYSIS/09_REPRODUCIBILITY_AND_QA/local_outputs/
+/04_ANALYSIS/09_REPRODUCIBILITY_AND_QA/D4_FINAL_REPRODUCIBILITY_QA.xlsx
+/04_ANALYSIS/09_REPRODUCIBILITY_AND_QA/private_lineage/
+/06_REFERENCES_AND_APPENDICES/APPENDICES/**
+/99_ARCHIVE_DO_NOT_USE/**
+/tmp/
+
+# Authorized, local-only evidence correction and recalculation review.
+/04_ANALYSIS/11_CORRECTION_REVIEW_V2/
+# Finalisation evidence, row-level checks and rendered manuscript drafts stay local.
+/04_ANALYSIS/12_FINALISATION_20260910/local/
+/04_ANALYSIS/12_FINALISATION_20260910/independent/
