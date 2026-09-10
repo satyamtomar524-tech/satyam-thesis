@@ -5,6 +5,7 @@ Detailed outputs stay in the ignored local directory; this script is shareable.
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import importlib.util
 import json
@@ -14,6 +15,7 @@ from pathlib import Path
 from apply_scope_amendments import apply_amendments
 from date_sensitivity import analyse
 from evidence_holds import apply_holds
+from distinctness_holds import apply_distinctness_holds
 
 
 def digest(path: Path) -> str:
@@ -25,6 +27,9 @@ def write_json(path: Path, content) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--revision", choices=("v3", "v4"), default="v4")
+    args = parser.parse_args()
     here = Path(__file__).resolve().parent
     root = here.parents[1]
     historical = here.parent / "11_CORRECTION_REVIEW_V2"
@@ -36,12 +41,16 @@ def main() -> None:
         "holds": here / "local/evidence_hold_decisions.json",
         "engine": historical / "revision_calculations.py",
     }
+    if args.revision == "v4":
+        paths["distinctness"] = here / "local/distinctness_hold_decisions.json"
     hashes = {key: digest(path) for key, path in paths.items()}
     data = {key: json.loads(path.read_text(encoding="utf-8"))
             for key, path in paths.items() if key != "engine"}
     scope, holds = data["scope"], data["holds"]
     rows = apply_amendments(data["rows"], scope["amendments"], scope["review_date"])
     rows = apply_holds(rows, holds["holds"], holds["review_date"])
+    if "distinctness" in data:
+        rows = apply_distinctness_holds(rows, data["distinctness"]["holds"], data["distinctness"]["review_date"])
     if [r["Link_ID"] for r in rows] != [r["Link_ID"] for r in data["rows"]]:
         raise AssertionError("Candidate identifiers/order changed")
     spec = importlib.util.spec_from_file_location("retained_revision_calculations", paths["engine"])
@@ -49,7 +58,7 @@ def main() -> None:
     spec.loader.exec_module(module)
     print("Recalculating all retained network and sensitivity specifications", flush=True)
     calculation = module.calculate_all(root, rows, data["inputs"]["Link_Master_500"])
-    calculation["input_revision"] = "FINALISATION_REVIEW_V3_20260910"
+    calculation["input_revision"] = f"FINALISATION_REVIEW_{args.revision.upper()}_20260910"
     calculation["engine_identity_note"] = "Internal CORRECTION_REVIEW_V2 labels identify the reusable calculation engine, not the input ledger. See input_revision and input_manifest."
     calculation["input_manifest"] = hashes
     dated = analyse(rows, data["inputs"]["Evidence_Log"],
@@ -82,7 +91,7 @@ def main() -> None:
         "exact_bmw_technology": sum(r["Exact_BMW_Technology_Revised"] for r in canonical),
         "eligible_student_review_flags": sum(bool(r["Primary_Eligible"] and r["Needs_Student_Review"]) for r in rows),
     }
-    out = here / "local/v3"
+    out = here / "local" / args.revision
     out.mkdir(parents=True, exist_ok=True)
     write_json(out / "revised_decisions.json", rows)
     write_json(out / "calculation_output.json", calculation)
@@ -92,6 +101,7 @@ def main() -> None:
         "output_sha256": {name: digest(out / name) for name in
                           ("revised_decisions.json", "calculation_output.json", "date_sensitivity.json")},
         "inputs_unchanged": True, "scope_amendments": len(scope["amendments"]),
+        "distinctness_holds_added": len(data.get("distinctness", {}).get("holds", [])),
         "capability_holds": len(holds["holds"]), "register_counts": counts,
         "primary": topology, "recorded_date_restricted": dated["recorded_date_restricted"],
         "profile_counts": calculation["primary"]["profile_counts"],
