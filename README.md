@@ -10,6 +10,8 @@ Thesis finalisation resumed on 10 September 2026 with authorization for routine 
 
 The 500 records are candidate supplier-technology links, not 500 verified BMW suppliers. Public-evidence gaps must not be presented as proof of missing internal BMW visibility or absent commercial relationships.
 
+The v17 working revision reconciles the explanation of the unestimated combined measure across the introduction, theory and discussion. It also removes an unmeasured visibility-improvement claim and remaining workflow language. All tables, figures and equations are preserved. The twelve changed proof pages were visually checked, and the 32 existing synthetic tests pass; neither check constitutes full source verification or final manuscript acceptance.
+
 Sensitive manuscripts, administrative documents, raw supplier data, detailed evidence files and archives remain local and are excluded from Git.
 
 The finalisation regression suite is run with `python -m unittest discover -s 04_ANALYSIS/12_FINALISATION_20260910 -p 'test_*.py'`. Native Word-math tests require `python-docx` and `lxml`; they are available in the local bundled artifact runtime. Those tests check equation structure and package round-tripping, not rendered layout or academic validity.
