@@ -12,6 +12,8 @@ The 500 records are candidate supplier-technology links, not 500 verified BMW su
 
 The v17 working revision reconciles the explanation of the unestimated combined measure across the introduction, theory and discussion. It also removes an unmeasured visibility-improvement claim and remaining workflow language. All tables, figures and equations are preserved. The twelve changed proof pages were visually checked, and the 32 existing synthetic tests pass; neither check constitutes full source verification or final manuscript acceptance.
 
+The current v18 successor adds a bounded four-reference citation audit and clarifies the missing organisational validation of the structural measures. It corrects page locators, identifies the consulted preprint version where pagination differs, restores an omitted article subtitle and makes the compensatory scoring assumption explicit. Fifteen of 98 recognised citation uses have current support records; 83 remain pending. All data, tables, figures and equations are preserved, all 32 regression tests pass, and the fourteen changed proof pages were read. Current visual coverage is 56 of 97 pages, not final acceptance. Source and submission checks continue.
+
 Sensitive manuscripts, administrative documents, raw supplier data, detailed evidence files and archives remain local and are excluded from Git.
 
 The finalisation regression suite is run with `python -m unittest discover -s 04_ANALYSIS/12_FINALISATION_20260910 -p 'test_*.py'`. Native Word-math tests require `python-docx` and `lxml`; they are available in the local bundled artifact runtime. Those tests check equation structure and package round-tripping, not rendered layout or academic validity.
