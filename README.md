@@ -1,6 +1,6 @@
 # Beyond Blind Spots
 
-**Latest source-review checkpoint, 11 September 2026:** The v29 manuscript is unchanged. Citation supplement v29A supports four additional Holweg/Pil uses, giving 56 supported uses and 39 pending uses out of 95. Sixteen references have at least one supported use; nineteen still have pending uses. Those reference sets overlap because one Holweg/Pil introduction sentence remains too specific for the inspected source passage. The author-uploaded text was checked, but original PDF bytes and source-page images were unavailable. Earlier counts below are historical checkpoints.
+**Latest source-review checkpoint, 11 September 2026:** The v29 manuscript is unchanged. Citation supplement v29B adds four supported Cao/Zhang uses, giving 60 supported and 35 pending uses out of 95. Seventeen references have at least one supported use; eighteen still have pending uses. Those sets overlap because one Holweg/Pil introduction sentence remains unresolved. The Cao/Zhang check covers the current collaboration/performance propositions and firm-size qualification, not BMW-specific validation or other authors cited in the same paragraphs. Author-uploaded text was inspected; original PDF bytes and source-page images were not retained. Earlier counts below are historical checkpoints.
 
 This is the local research workspace for:
 
