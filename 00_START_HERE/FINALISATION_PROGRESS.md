@@ -1,6 +1,47 @@
 # Thesis finalisation progress
 
-## Current citation checkpoint: v59
+## Current citation checkpoint: v60
+
+**Needs revision; review completeness: Partial.** The working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v60_FIELDS_WORKING.docx`. Three Caridi citation uses were rewritten to match the directly inspected authors' abstract; one bibliography access URL was appended and Table 2.1's detached source note was repaired. No empirical input or result changed. Local authority is the finalisation folder's `v60_checkpoint_validation.json`, `v60_visual_coverage.json`, `v60_citation_reconciliation.json`, `v60_review_coverage.json` and v60 citation inventory/source batch.
+
+The [authors' abstract reproduced in the publisher-supplied IDEAS/RePEc record](https://ideas.repec.org/a/eee/proeco/v127y2010i2p372-383.html) supports a proposed quantitative approach to virtuality, complexity and visibility and an exploratory application in six case studies. It does not verify detailed definitions, causal results, this thesis's measures, or printed pages 372–373. The three revised uses expressly name the consulted abstract. The matching EconPapers display is a mirror of the same RePEc record, not independent corroboration. The retrieved HTML, hash and scope receipt are retained locally; the full article was not inspected.
+
+All **95 recorded citation uses have bounded support: 100.0% completed, 0.0% remaining**. This is not full-article verification or overall thesis completion. The read-only local panel automatically picked up the verified v60 checkpoint and returned HTTP 200 with a five-second refresh. Its earlier right-panel opening was queued; on-screen visibility remains unconfirmed.
+
+Word reports 100 pages, 26,233 main-text words and 108 comments. All 21 caption destinations, affected contents entries, 26 native equations, previous comments, saved character formatting and frozen V4 hashes pass checks. Twenty-four changed pages were directly inspected; 76 images exactly match the reviewed v59 proof. Table 2.1 spans PDF pages 29–30; its final row, repeated header and complete source note now appear together on page 30. The bibliography URL adds one references page and shifts the appendix/declarations by one page; the updated destinations were checked. All 39 regression tests pass. No remaining layout defect was observed in this proof, but final academic acceptance remains false.
+
+The Data validation workflow required source-to-claim scope checks, saved-artifact reconciliation and explicit review coverage; the document workflow required rendered-page inspection. These checks do not replace student review or certify every thesis assertion. Denominators below describe this batch's scoped units; zero observed defects is not a whole-thesis acceptance score.
+
+### Thesis quality
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Usefulness and completeness | 0 / unknown | The full argument and all supplier-source claims have not been re-reviewed; the overall inventory and readiness remain open. |
+| Analytical clarity | 0 / 3 | Three revised paragraphs separate the abstract's propositions from this study's framework and weighting choices. |
+| Visual consistency | 0 / 100 | All pages have direct or exact-identity inherited coverage. The detached Table 2.1 note is repaired and rechecked. |
+
+### Analytical correctness and robustness
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Source authority and confidence | 0 / 95 | All recorded uses have bounded support; selected-page and abstract-only limits remain. No full-article certification is implied. |
+| SQL/value accuracy | 0 / 3 | Frozen counts of 23 award-supported, 35 primary exact and 36 canonical exact claims were independently recomputed in SQL; not every thesis value was newly audited. |
+| Within-chart agreement | N/A | No chart changed in this citation batch. |
+| Complete source-detail surfaces | N/A | Dashboard-only surfaces do not apply to this manuscript. |
+| Cross-artifact consistency | 0 / 95 | Saved citation contexts, source mappings and summary fields agree for all 95 recorded uses. Consistency is not independent semantic verification. |
+| Data-quality controls | 0 / unknown | Frozen inputs/results are unchanged; broader record-level evidence quality remains outside this batch's complete inventory. |
+| Conclusion support | 0 / unknown | Introduction/framework citations were repaired; the full thesis conclusion inventory and assessment remain unfinished. |
+
+### Prioritized problems and next steps
+
+1. **Fixed — three Caridi citation uses:** replaced unsupported page-specific attributions with abstract-bounded propositions and an explicit access citation; the denominator remains 95.
+2. **Fixed — Table 2.1 source-note separation:** the final row and note remain together with a repeated header; the 100-page proof and navigation were verified.
+3. **Now — broader evidence and argument review:** continue supplier capability/relationship source checks, review research-question-to-conclusion alignment and terminology, and retain the unresolved DIEFFENBACHER original-PDF limitation. The 36 canonical exact claims have only the previously documented narrow source review, not blanket verification.
+4. **Next — final declarations and personal review:** reconcile the declaration's old 25,519-word value using the final accepted counting method; clarify AI-use and personal-data wording; have the student read, understand and confirm the thesis. No signature, submission or personal approval is inferred.
+
+Restricted manuscripts, source captures and administrative records remain local. The full thesis objective remains active. This section supersedes all historical notices below.
+
+## Historical citation checkpoint: v59
 
 **Needs revision; review completeness: Partial.** The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v59_FIELDS_WORKING.docx`. Five paragraph-level attribution repairs were made; empirical inputs and results were not changed. This is a verified citation/content checkpoint, not final layout or academic acceptance. Records are in the finalisation folder's `local/v59_checkpoint_validation.json`, `local/v59_visual_coverage.json`, `local/v59_citation_reconciliation.json` and v59 citation inventory/source batch.
 

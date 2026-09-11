@@ -1,6 +1,14 @@
 # Beyond Blind Spots
 
-## Current citation checkpoint: v59, 11 September 2026
+## Current citation checkpoint: v60, 11 September 2026
+
+All **95 recorded literature-citation uses now have support within their stated scopes**. The final three Caridi uses were rewritten to match the authors' abstract reproduced in the publisher-supplied RePEc record; the full article and the old printed-page locators are not certified. The bibliography identifies the consulted abstract. This milestone does not mean all source articles or all supplier claims are fully verified.
+
+Table 2.1 now keeps its final row and complete source note together on the continuation page, with a repeated header. The saved draft passes content, source-mapping, formatting, comment, equation and navigation checks. All 100 proof pages have visual coverage: 24 changed pages inspected directly and 76 exact matches to the reviewed predecessor. Word reports 26,233 main-text words and 108 review comments. All 39 regression tests pass; frozen evidence and empirical results are unchanged.
+
+The read-only local progress panel automatically picked up v60: **100.0% citation completion, 0.0% remaining**, refreshing every five seconds. Overall thesis completion remains unquantified and explicitly not submission-ready. Right-side opening was previously queued; on-screen visibility is unconfirmed. Broader supplier-source and full argument review, final declarations and student review remain open. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for the scope and remaining work. Restricted files remain local. All notices below are historical.
+
+## Historical citation checkpoint: v59, 11 September 2026
 
 Five unverified literature attributions have been replaced by narrower propositions supported by directly inspected Wang/Strong and Brandon-Jones source pages. The changed prose separates those authors' concepts from this study's public-evidence application. Citation coverage is now 92 supported uses out of 95; three Caridi uses still await source-page verification. Unread pages have not been retrospectively certified.
 
