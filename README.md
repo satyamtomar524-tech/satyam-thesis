@@ -1,6 +1,14 @@
 # Beyond Blind Spots
 
-## Current checkpoint: v58, 11 September 2026
+## Current citation checkpoint: v59, 11 September 2026
+
+Five unverified literature attributions have been replaced by narrower propositions supported by directly inspected Wang/Strong and Brandon-Jones source pages. The changed prose separates those authors' concepts from this study's public-evidence application. Citation coverage is now 92 supported uses out of 95; three Caridi uses still await source-page verification. Unread pages have not been retrospectively certified.
+
+The live local progress panel automatically shows **96.8% citation completion and 3.2% remaining**, refreshing every five seconds. This is not an overall thesis-completion percentage. Opening the panel on the right was queued by the app; on-screen visibility remains unconfirmed.
+
+The saved v59 checkpoint passed content, citation mapping, frozen-data, comment, equation and caption-navigation checks; all 39 regression tests pass. Word reports 99 pages, 26,234 main-text words and 104 review comments. Nineteen changed pages were directly inspected and 80 match reviewed v58 images exactly. One layout defect is recorded: Table 2.1's source note falls onto the following page. The draft is not submission-ready. Broader source and argument review, declarations and student review remain open; see [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md). Restricted files remain local. Notices below are historical.
+
+## Historical checkpoint: v58, 11 September 2026
 
 Two paragraphs now distinguish announced future applications from completed delivery or operational deployment. Table 4.1 labels exact BMW-technology links without treating every link as confirmed BMW use. Frozen V4 evidence, eligibility and calculations remain unchanged.
 

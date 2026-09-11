@@ -1,6 +1,47 @@
 # Thesis finalisation progress
 
-## Current checkpoint: v58
+## Current citation checkpoint: v59
+
+**Needs revision; review completeness: Partial.** The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v59_FIELDS_WORKING.docx`. Five paragraph-level attribution repairs were made; empirical inputs and results were not changed. This is a verified citation/content checkpoint, not final layout or academic acceptance. Records are in the finalisation folder's `local/v59_checkpoint_validation.json`, `local/v59_visual_coverage.json`, `local/v59_citation_reconciliation.json` and v59 citation inventory/source batch.
+
+Five formerly unverified Barratt/Oke page attributions were replaced after inspecting Wang/Strong printed page 6 and Brandon-Jones author-manuscript pages 3 and 19. The prose was revised to match their actual, narrower propositions, with the study's application identified separately. This does not certify the unread Barratt/Oke pages or validate a BMW operational-visibility measure. The two existing abstract-supported Barratt/Oke uses remain unchanged. All three Caridi uses remain pending.
+
+Citation support is **92 of 95 uses: 96.8% completed, 3.2% remaining**. The read-only loopback progress panel automatically picked up v59 and returns HTTP 200 with a five-second refresh. The app queued opening it in the right panel; visible placement could not be confirmed. Citation progress must not be described as whole-thesis completion.
+
+Word reports 99 pages, 26,234 main-text words and 104 comments. All 21 caption destinations, 26 native equations, existing comments, saved character formatting and frozen V4 input/result hashes pass checks. The research-problem contents destination correctly changes from printed page 3 to page 2. Nineteen changed pages were directly inspected; 80 images exactly match reviewed v58 pages. All 39 regression tests pass. Inspection identified a remaining layout problem: the Table 2.1 source note starts on printed page 24, while the table ends on page 23.
+
+The scope is the literature-citation inventory and affected document components, not a full new audit of every thesis assertion. Scorecard denominators are scoped units, and zero observed defects does not mean complete verification. Detailed coverage accounting is retained locally.
+
+### Thesis quality
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Usefulness and completeness | 0 / unknown | The full argument and all supplier-source claims have not been re-reviewed; overall readiness remains open. |
+| Analytical clarity | 0 / 5 | Five revised paragraphs distinguish literature propositions from the study's interpretation. Other chapters were not comprehensively reviewed in this batch. |
+| Visual consistency | 1 / 99 | All pages have current or exact-identity inherited visual coverage. Table 2.1's source note is detached; no flawless-layout claim is made. |
+
+### Analytical correctness and robustness
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Source authority and confidence | 0 / 95 | Ninety-two uses have support within recorded scopes, including selected-page and abstract-only evidence. Three Caridi uses remain unverified, not proven false. |
+| SQL/value accuracy | 0 / 3 | The preserved 23 award-supported, 35 primary exact and 36 canonical exact claim counts were separately recomputed from frozen records. This is not a new audit of every thesis value. |
+| Within-chart agreement | N/A | No chart was changed in this citation batch. |
+| Complete source-detail surfaces | N/A | Dashboard-only surfaces do not apply to this manuscript. |
+| Cross-artifact consistency | 0 / 95 | Saved citation text, paragraph mappings, source records and all summary fields were reconciled for 95 uses. This does not independently verify source meaning. |
+| Data-quality controls | 0 / unknown | Frozen hashes are unchanged; broader record-level evidence quality is not newly certified. |
+| Conclusion support | 0 / unknown | The revised discussion passage is bounded to its source; a full inventory and assessment of thesis conclusions remains necessary. |
+
+### Prioritized problems and proposed fixes
+
+1. **Source attribution in the introduction, literature review and discussion. Fixed:** five unverified attributions now use directly inspected, narrower source propositions; supported citation uses increase from 87 to 92 without reducing the denominator.
+2. **Three Caridi citations in the literature review/framework. Fix (Proposed):** obtain and inspect the cited pages, or revise the propositions only when an adequately supported alternative is established. Access failures do not show the claims are false.
+3. **Table 2.1, printed pages 23–24. Fix (Proposed):** keep the source note with the table and recheck pagination and contents/caption destinations. This remaining defect prevents layout acceptance.
+4. **Whole-thesis readiness. Needs input and further work:** broader supplier/source and argument review, unresolved DIEFFENBACHER original-PDF access, final word-count and AI/personal declarations, and the student's reading and understanding remain outstanding. No personal confirmation, signature, submission or human approval is inferred.
+
+Restricted manuscripts, sources and administrative records remain local. This section supersedes historical notices below.
+
+## Historical checkpoint: v58
 
 The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v58_FIELDS_WORKING.docx`; its proof is under `tmp/pdfs/v58_navigation_review_20260911/`. The finalisation folder's `local/v58_checkpoint_validation.json`, `local/v58_visual_coverage.json` and v58 citation records document this checkpoint. `local/check_v58.py` completed with exit code 0. This section supersedes all historical notices below.
 
