@@ -1,5 +1,11 @@
 # Beyond Blind Spots
 
+## Current checkpoint: v35, 11 September 2026
+
+This section supersedes the historical version notices below. The working draft corrects Roy's source-version locator and separates literature principles from study-specific execution in the reliability paragraph. Citation coverage is 71 supported and 24 pending uses across 11 references with pending uses. Source support remains bounded to the inspected passages and versions; it does not establish independent human verification or organisational validity.
+
+The 97-page proof has complete documented visual coverage: ten changed pages inspected and 87 exact matches to previously reviewed pages. No new layout defect was observed. Word reports 25,741 main-text words. Evidence and calculation outputs are unchanged. The intermediate v34 pagination regression was not promoted. The combined research question, remaining source and section reviews, measurement validity and final declarations remain open. This is not a submission-ready thesis.
+
 **Citation supplement v33B:** The manuscript remains v33. Kache/Seuring's information-quality use is now supported by inspected printed page 10, giving 68 supported and 27 pending citation uses. All earlier supported contexts remain unchanged. Christen's preface pages were visually inspected; its thesis-specific attribution remains pending, together with the Roy locator and Chapman paragraph 373 repair. This supersedes older citation totals, not document or empirical-result versions.
 
 **Citation supplement v33A, 11 September 2026:** The v33 manuscript is unchanged. Two bounded data-quality uses are now supported after inspecting Wang/Strong and Chapman source pages, bringing coverage to 67 supported and 28 pending uses. Downloaded PDF bytes and inspected page-image hashes are retained locally. The Chapman National Library copy lacks final printed folios; the relevant passages were matched to the publisher's page-indexed text. Its separate calculation-check citation still needs clearer attribution and remains pending. Source support does not verify the thesis's empirical implementation. This notice supersedes earlier citation totals only.

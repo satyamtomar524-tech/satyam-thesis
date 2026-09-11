@@ -2,6 +2,14 @@
 
 Updated 11 September 2026. Status: active; not submission-ready.
 
+## Current checkpoint: v35
+
+This checkpoint supersedes historical current-version notices and citation totals below. The local working document is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v35_FIELDS_WORKING.docx`; the corresponding proof is under `tmp/pdfs/v35_navigation_review_20260911/`. Saved-file checks and visual coverage are recorded in `local/v35_checkpoint_validation.json` and `local/v35_render_coverage.json` under the finalisation folder.
+
+Roy's locator now identifies the consulted author manuscript. The reliability paragraph distinguishes Christen's matching guidance and Chapman/Sikos provenance principles from this study's own execution. Three pending citation uses were resolved, while the previously supported Sikos context was rechecked. Coverage is 71 supported and 24 pending uses, with 11 references retaining pending uses. Barratt/Oke's separate clause remains pending. Roy was reviewed as author-version text; the Chapman repository copy lacks final printed folios and was matched to publisher page-indexed text. These access limits remain explicit.
+
+Word reports 25,741 main-text words, 97 pages and 27 review comments. All 97 proof pages have documented visual coverage: ten changed pages directly inspected and 87 exact matches to reviewed v33 pages. No new layout defect was observed. The intermediate v34 extra-page regression was corrected before promotion. Frozen V4 evidence and results are unchanged. This checkpoint does not close the combined question, organisational construct validity, remaining source/section review, declarations or final acceptance. Historical declaration counts must not be treated as current.
+
 ## Objective and authority
 
 Complete every thesis section to a defensible academic standard, with traceable evidence, justified methods, reproducible calculations and consistent conclusions. Necessary revisions and routine decisions were authorized on 10 September 2026. This supersedes earlier workflow pauses, but does not authorize invented findings, declarations of personal review, signatures or disclosure of restricted material.
