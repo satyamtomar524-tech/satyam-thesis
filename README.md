@@ -1,5 +1,7 @@
 # Beyond Blind Spots
 
+**Latest proof review, 11 September 2026:** All 97 pages of the unchanged v29 proof now have documented visual inspection. Final acceptance remains open: two tables have detached notes, the sensitivity-table panel headings differ in style, and the Chapter 4 summary retains an explanation inconsistent with the revised methodology. These findings are recorded for correction; complete inspection is not proof of an error-free thesis.
+
 **Latest source-review checkpoint, 11 September 2026:** The v29 manuscript is unchanged. Citation supplement v29B adds four supported Cao/Zhang uses, giving 60 supported and 35 pending uses out of 95. Seventeen references have at least one supported use; eighteen still have pending uses. Those sets overlap because one Holweg/Pil introduction sentence remains unresolved. The Cao/Zhang check covers the current collaboration/performance propositions and firm-size qualification, not BMW-specific validation or other authors cited in the same paragraphs. Author-uploaded text was inspected; original PDF bytes and source-page images were not retained. Earlier counts below are historical checkpoints.
 
 This is the local research workspace for:
