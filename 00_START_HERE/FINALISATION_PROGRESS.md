@@ -2,6 +2,14 @@
 
 Updated 11 September 2026. Status: active; not submission-ready.
 
+## Current checkpoint: v36
+
+This supersedes the historical version notices below. The current local Word successor is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v36_FIELDS_WORKING.docx`, with its proof under `tmp/pdfs/v36_navigation_review_20260911/`. Current records are `local/v36_checkpoint_validation.json`, `local/v36_render_coverage.json`, `local/citation_audit/v36_inventory.json` and `local/citation_audit/v36_source_batch.json` under the finalisation folder.
+
+Srinivasan/Swink and Kim now use explicit publisher-abstract locators. Kim is attached to the paper's material-flow and contractual network analysis, as a contrast to this study's category-overlap projection. The three previously supported Galbraith, Borgatti/Li and Opsahl clauses in the edited paragraphs were separately rechecked. Citation coverage is 73 supported and 22 pending uses; nine references retain pending uses. These bounded abstract checks do not verify original printed pages or BMW-specific outcomes.
+
+The 97-page proof has complete documented visual coverage: three changed pages directly inspected, 94 exact matches to reviewed v35 pages, and no new observed layout defect. The saved Word output preserves twenty tables, images, 26 native equations, section geometry, prior comments and 29 total comment associations. Twenty caption destinations are verified. Word reports 25,757 main-text words. All 32 regression tests pass; frozen V4 inputs/results retain their hashes. The visual record's earlier ledger-pending field is superseded by the subsequent saved-document checkpoint. Source/claim review, full argument review, the combined question, organisational measurement validity and final declarations remain unfinished.
+
 ## Current checkpoint: v35
 
 This checkpoint supersedes historical current-version notices and citation totals below. The local working document is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v35_FIELDS_WORKING.docx`; the corresponding proof is under `tmp/pdfs/v35_navigation_review_20260911/`. Saved-file checks and visual coverage are recorded in `local/v35_checkpoint_validation.json` and `local/v35_render_coverage.json` under the finalisation folder.
