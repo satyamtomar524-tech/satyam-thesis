@@ -1,5 +1,11 @@
 # Beyond Blind Spots
 
+## Current checkpoint: v42, 11 September 2026
+
+This supersedes the historical checkpoints below. The latest working manuscript distinguishes observed supplier-technology structure from untested hypotheses about information-processing demand. Seven passages were corrected across the introduction, framework and discussion. Earlier Kembro and Holweg/Pil repairs narrow attributions to the inspected source passages. Citation verification covers 82 of 95 uses; 13 uses across four references remain pending. This is citation coverage, not overall thesis completion.
+
+The 97-page proof has documented visual coverage: seven changed pages inspected and 90 exact matches to reviewed v41 pages. Saved-document checks preserve tables, images, 26 native equations, section geometry and earlier comments, and verify 20 caption-list destinations. Word reports 25,802 main-text words and 46 review comments. Frozen evidence and calculation hashes are unchanged. The combined research question, remaining source and supplier-claim checks, full section review and final declarations remain open. This is not a submission-ready thesis.
+
 ## Current checkpoint: v38, 11 September 2026
 
 This supersedes historical checkpoints below. Christopher/Lee citations identify the inspected author-manuscript pagination, and the Kalaiarasan framework summary restores barriers and challenges and identifies the consulted abstract. Coverage is 79 supported and 16 pending citation uses across six references with pending uses. Source-version and text-only inspection limits remain explicit; these checks do not validate BMW-specific organisational measures.

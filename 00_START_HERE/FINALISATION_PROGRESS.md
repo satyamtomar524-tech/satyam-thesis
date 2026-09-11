@@ -1,5 +1,13 @@
 # Thesis finalisation progress
 
+## Current checkpoint: v42
+
+This supersedes historical current-version notices below. The verified local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v42_FIELDS_WORKING.docx`, with its 97-page proof under `tmp/pdfs/v42_navigation_review_20260911/`. Verification records are `local/v42_checkpoint_validation.json`, `local/v42_render_coverage.json`, `local/citation_audit/v42_inventory.json` and `local/citation_audit/v42_source_batch.json` under the finalisation folder. These restricted artifacts remain local.
+
+Seven passages now distinguish observed structural descriptions from untested information-demand hypotheses. Kembro and Holweg/Pil attribution corrections from v39–v41 are retained. All 95 recorded citation contexts were reconciled; three revised Galbraith application contexts retain their theoretical propositions and locators. Coverage remains 82 supported uses and 13 pending uses across four references, not an overall completion percentage.
+
+Seven changed pages were visually inspected; the other 90 exactly match reviewed v41 images. Twenty caption destinations, tables, images, native equations, section geometry and comment associations passed saved-document checks. Word reports 25,802 main-text words and 46 review comments. Frozen V4 inputs and calculations retain their hashes. The earlier visual record's pending reconciliation status is superseded by the completed checkpoint. Full academic acceptance, remaining source and supplier-claim review, the combined research question, full section review and declarations remain open.
+
 ## Current checkpoint: v38
 
 The v38 saved-document and citation reconciliation is complete. Three reviewed uses are now supported, bringing coverage to 79 supported and 16 pending uses across six references with pending uses. Christopher/Lee uses transparent author-manuscript locators; Kalaiarasan's summary includes barriers and challenges and identifies the consulted abstract. Other authors' propositions in the mixed paragraph remain unchanged. Source-text support is not source-PDF visual verification or empirical BMW validation.
