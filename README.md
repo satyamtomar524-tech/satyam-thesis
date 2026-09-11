@@ -1,6 +1,14 @@
 # Beyond Blind Spots
 
-## Current checkpoint: v56, 11 September 2026
+## Current checkpoint: v57, 11 September 2026
+
+The methods now distinguish avoiding duplicate claim counts from dependence between different claims supported by the same publication. A targeted reading of four official BMW webpages corroborated 23 existing narrow award/application claims. The pages represent only three announcements: the Canadian and global 2022 pages are regional versions of one announcement. A separate SQL join confirms that these sources support 23 of the 35 primary exact-technology claims (23 of 36 canonical exact claims overall). The discussion now states this concentration beside the descriptive comparison; neither weighting rule makes the source evidence independent.
+
+The two paragraph edits preserve frozen V4 evidence, eligibility and calculations. Literature citation support remains 87 of 95 uses, with eight pending uses across two references; all citation contexts are unchanged. All 99 proof pages have visual coverage: 12 changed pages directly inspected and 87 exact matches to v56. Saved-character formatting, 26 native equations, images, tables, 97 comment associations, 21 caption destinations and the two refreshed contents entries pass checks. Word reports 26,187 main-text words. All 39 regression tests pass.
+
+This is targeted source corroboration, not independent human verification, legal-entity revalidation or proof of current contracts, operational performance or historical webpage identity. Restricted manuscripts and detailed review receipts remain local. The thesis still needs remaining supplier/source and full argument review, final declarations and student review; it is not submission-ready. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for source links and verification scope. Earlier notices below are historical.
+
+## Historical checkpoint: v56, 11 September 2026
 
 This notice supersedes all historical checkpoint notices below. The draft aligns the four visibility claim dimensions with the implemented decisions: supplier identity, candidate capability, same-entity BMW relationship and exact BMW-technology support. Traceability and dates qualify every dimension. The text no longer presents independent evidence states as an ordinal supplier score or treats historical codes as current eligibility rules. v54's publication-date and framework-attribution corrections are retained, including two explicitly abstract-supported Barratt/Oke uses. The post-hoc comparison remains descriptive; operational priorities are unvalidated.
 

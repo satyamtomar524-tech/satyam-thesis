@@ -1,6 +1,24 @@
 # Thesis finalisation progress
 
-## Current checkpoint: v56
+## Current checkpoint: v57
+
+The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v57_FIELDS_WORKING.docx`; its proof is under `tmp/pdfs/v57_navigation_review_20260911/`. Authority is recorded in `local/v57_checkpoint_validation.json`, `local/v57_visual_coverage.json` and the v57 citation inventory/source batch under the finalisation folder. This section supersedes historical current-version notices below.
+
+### Source dependence correction
+
+Two paragraphs now distinguish canonical counting from independent source corroboration. Counting canonical claims instead of evidence rows avoids counting one claim repeatedly merely because several sources support it; it does not remove dependence when different claims share a publication. The methods no longer promise that the architecture prevents all repeated-source influence. The discussion places the actual concentration beside the post-hoc comparison and explains that neither weighting rule resolves it.
+
+A targeted AI-assisted recheck corroborated the existing narrow award/application wording of 23 canonical exact-technology claims, all of which are primary-eligible. The retained evidence register and a separate SQLite join establish 23 of 35 primary exact claims, or 23 of 36 canonical exact claims overall. The source groups are six claims from [BMW's 2016 awards announcement](https://www.press.bmwgroup.com/global/article/detail/T0264157EN/bmw-group-recognises-suppliers-for-best-innovations-presentation-of-the-bmw-supplier-innovation-award), four from the [2018 announcement](https://www.press.bmwgroup.com/global/article/detail/T0287384EN/bmw-group-recognises-suppliers-for-outstanding-innovations), and thirteen from the 2022 announcement, represented by its [Canadian page](https://www.press.bmwgroup.com/canada/article/detail/T0405806EN/innovations-are-the-key-to-success%3A-bmw-group-recognises-suppliers-with-coveted-supplier-innovation-award?language=en) and [global page](https://www.press.bmwgroup.com/global/article/detail/T0405720EN/innovations-are-the-key-to-success%3A-bmw-group-recognises-suppliers-with-coveted-supplier-innovation-award?language=en). Four webpage versions are not four independent publications, and 23 claim-source associations are not 23 independent confirmations.
+
+The local `supplier_award_review_20260911.json` receipt records per-claim locators, observations, original evidence IDs and fingerprints of the frozen candidate/evidence records. Original webpage/PDF bytes were not retained in this receipt. Current accessible pages do not establish byte-identical content at the original retrieval date. The recheck does not extend the August publication cutoff, revalidate all legal entities or establish present-day deployment, contracts or performance. The remaining 13 canonical exact claims are explicitly listed for continued review; other capability and relationship claims also remain in scope. No V4 flags, source dates, taxonomy or results changed.
+
+### Verification and remaining work
+
+The 99-page proof has 12 directly inspected changed pages (3, 37–38 and 75–83) and 87 images identical to the reviewed v56 proof. Paragraph text outside the two intended edits and two refreshed contents-page values is unchanged. Every saved text character retains its formatting; tables, images, 26 native equations, 97 comment associations and section geometry are preserved. All 21 caption destinations and the changed contents destinations agree with the proof. One pypdf extraction inserted a space within “of”; pdfplumber and visual inspection verified the displayed wording. All 39 regression tests pass.
+
+Literature citation support remains 87 supported and eight pending uses across two references; all 95 contexts and decisions are unchanged. Source hashes and review-to-paragraph mappings agree. Word reports 26,187 main-text words. The declaration still needs final word-count reconciliation and AI/personal-data clarification. The AI-use log is updated through v57 without implying student approval. This source review does not increase the citation-only progress percentage. Remaining source and supplier-claim review, full argument review and personal acceptance requirements keep the thesis not submission-ready.
+
+## Historical checkpoint: v56
 
 This supersedes historical current-version notices below. The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v56_FIELDS_WORKING.docx`; its 99-page proof is under `tmp/pdfs/v56_navigation_review_20260911/`. Within the finalisation local folder, authority is recorded in `v56_checkpoint_validation.json`, `v56_visual_coverage.json`, `citation_audit/v56_inventory.json` and `citation_audit/v56_source_batch.json`. Restricted manuscript and evidence artifacts remain local.
 
