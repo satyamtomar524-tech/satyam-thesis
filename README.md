@@ -1,5 +1,7 @@
 # Beyond Blind Spots
 
+**Latest source-review checkpoint, 11 September 2026:** The v29 manuscript is unchanged. Citation supplement v29A supports four additional Holweg/Pil uses, giving 56 supported uses and 39 pending uses out of 95. Sixteen references have at least one supported use; nineteen still have pending uses. Those reference sets overlap because one Holweg/Pil introduction sentence remains too specific for the inspected source passage. The author-uploaded text was checked, but original PDF bytes and source-page images were unavailable. Earlier counts below are historical checkpoints.
+
 This is the local research workspace for:
 
 **Beyond Blind Spots: Using Business Analytics to Assess Visibility and Coordination Complexity in BMW's Supplier Technology Ecosystem**

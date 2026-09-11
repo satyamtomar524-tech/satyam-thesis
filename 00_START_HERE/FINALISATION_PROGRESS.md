@@ -161,6 +161,10 @@ Word reports 25,723 main-text words and 97 pages. All nine changed pages were vi
 
 ## Completion requirements
 
+**Current citation authority:** `local/citation_audit/v29A_inventory.json` and `local/citation_audit/v29A_source_batch.json` supersede v29 citation-status counts without changing the manuscript. Four Holweg/Pil uses are now supported, for 56 supported and 39 pending uses. Sixteen references have support and nineteen have pending uses; REF-007 belongs to both sets because its paragraph 142 use remains pending. The earlier v29 saved-document checkpoint remains valid for its structural checks, not the newest citation count.
+
+The source check used the author-uploaded article text, corroborated against publisher metadata. Its abstract and opening discussion support the bounded automotive information/physical-flow propositions in paragraphs 194, 201, 228 and 503. Paragraph 142 adds technology, production-resource and supplier-decision specificity not established by the inspected opening passage. Next, narrow that clause or find precise support, preserving the independently supported Mentzer clause in the same paragraph. The original PDF download returned 404; the retained hash identifies a browsing-text response, not the publication PDF. No source-page visual verification or BMW-specific validation is claimed.
+
 | Requirement | Current status | Evidence needed for completion |
 |---|---|---|
 | Every manuscript section reviewed | In progress | Section-by-section coverage with resolved material findings |
@@ -168,7 +172,7 @@ Word reports 25,723 main-text words and 97 pages. All nine changed pages were vi
 | Method choices justified | In progress | Explicit constructs, eligibility rules, formulas, assumptions and sensitivity rationale |
 | Calculations verified | In progress | Independent recomputation from selected rows and relevant boundary tests |
 | Results, figures and conclusions consistent | V4 results and narrative integrated; final audit pending | Final cross-artifact reconciliation after source/citation review |
-| Academic citations support their passages | Fifteen-source bounded coverage documented; full audit pending | Current ledger supports 52 of 95 recognised uses; 43 uses and remaining bibliographic checks require review. Latest source has text-only capture limits. |
+| Academic citations support their passages | Sixteen references have bounded support; full audit pending | Current v29A ledger supports 56 of 95 recognised uses; 39 uses across nineteen references remain pending. One partly reviewed source belongs to both reference sets. Text-only capture limits remain explicit. |
 | Word and PDF ready | Not ready | Twenty caption-list page destinations verified; 73/97 pages inspected and abbreviation alignment repaired; final all-page acceptance and count/declaration reconciliation still required |
 | Declarations and submission requirements | Open | Accurate AI-use record, student review and required personal/official confirmations |
 | GitHub updated safely | In progress | Reviewed commits and verified remote state, with restricted files excluded |
