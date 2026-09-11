@@ -1,6 +1,16 @@
 # Beyond Blind Spots
 
-## Current checkpoint: v57, 11 September 2026
+## Current checkpoint: v58, 11 September 2026
+
+Two paragraphs now distinguish announced future applications from completed delivery or operational deployment. Table 4.1 labels exact BMW-technology links without treating every link as confirmed BMW use. Frozen V4 evidence, eligibility and calculations remain unchanged.
+
+A complementary source review covers the remaining 13 canonical exact-technology claims. Together with the earlier 23 award/application claims, all 36 canonical exact claims (35 primary-eligible) now have a narrow source review. This is not full original-source verification: the DIEFFENBACHER 2017 PDF remains unavailable, and indexed original detail is explicitly distinguished from live generic corroboration. The local companion corrects Dürr's order-quarter scope and preserves prospective, research and indirect production-chain qualifications.
+
+The v58 checkpoint check passed. All 99 proof pages have visual coverage: seven directly inspected and 92 exact matches to reviewed v57 pages. Word reports 26,202 main-text words and 99 comments; 21 caption destinations, 26 native equations and all 39 regression tests pass the scoped checks. Literature support remains 87 of 95 citation uses, with eight uses across two references pending.
+
+Restricted manuscripts and detailed evidence remain local. Broader supplier/source checks, full argument review, declarations and student review remain open. No human acceptance or submission readiness is claimed. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md). All notices below are historical.
+
+## Historical checkpoint: v57, 11 September 2026
 
 The methods now distinguish avoiding duplicate claim counts from dependence between different claims supported by the same publication. A targeted reading of four official BMW webpages corroborated 23 existing narrow award/application claims. The pages represent only three announcements: the Canadian and global 2022 pages are regional versions of one announcement. A separate SQL join confirms that these sources support 23 of the 35 primary exact-technology claims (23 of 36 canonical exact claims overall). The discussion now states this concentration beside the descriptive comparison; neither weighting rule makes the source evidence independent.
 

@@ -1,6 +1,24 @@
 # Thesis finalisation progress
 
-## Current checkpoint: v57
+## Current checkpoint: v58
+
+The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v58_FIELDS_WORKING.docx`; its proof is under `tmp/pdfs/v58_navigation_review_20260911/`. The finalisation folder's `local/v58_checkpoint_validation.json`, `local/v58_visual_coverage.json` and v58 citation records document this checkpoint. `local/check_v58.py` completed with exit code 0. This section supersedes all historical notices below.
+
+### Application status and exact-link interpretation
+
+Two prose paragraphs distinguish announced future applications from completed delivery or operational deployment. Table 4.1 now describes exact BMW-technology links rather than implying that every association establishes BMW use. Research participation, historical applications, announcements and indirect production-chain evidence retain their different meanings.
+
+The new local `exact_claim_source_review_20260911.json` companion covers the remaining 13 canonical exact claims and complements the earlier 23-claim award receipt without overlap: 36 canonical exact claims, including 35 primary-eligible claims, now have a bounded source review. All nine input hashes, 20 source/render artifact hashes, 13 candidate fingerprints and 14 evidence fingerprints were checked with a separate implementation. These integrity checks do not substitute for source interpretation or independent human review.
+
+One original-access item remains open: DIEFFENBACHER's registered 2017 PDF was not recovered. Its detailed application wording is corroborated by indexed original text; the live secondary page supports only a generic BMW wet-molding association. The companion keeps that distinction explicit. It also corrects Dürr's Q4 2019 timing to the two China orders, preserves prospective wording for announced applications, and distinguishes Oerlikon's mould-coating role through the tool manufacturer from separate equipment supply. Frozen V4 fields, quantitative decisions, eligibility and results were not changed.
+
+### Verification and remaining work
+
+All 99 proof pages have documented visual coverage: pages 39, 49–51, 77–78 and 83 were directly inspected; the other 92 exactly match reviewed v57 images. Word reports 26,202 main-text words and 99 comments. Checks cover 21 caption destinations, 26 native equations and preservation of unaffected content and formatting. All 39 regression tests pass. Literature citation support remains 87 of 95 uses; eight uses across two references are pending and citation contexts are unchanged.
+
+This checkpoint is not whole-thesis approval, independent human verification or submission readiness. Original-PDF recovery, broader supplier/source checks, full argument and terminology review, final word-count and AI/personal declarations, and student reading and understanding remain open. The source review does not increase the citation-only completion percentage. Restricted manuscripts and detailed evidence remain local.
+
+## Historical checkpoint: v57
 
 The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v57_FIELDS_WORKING.docx`; its proof is under `tmp/pdfs/v57_navigation_review_20260911/`. Authority is recorded in `local/v57_checkpoint_validation.json`, `local/v57_visual_coverage.json` and the v57 citation inventory/source batch under the finalisation folder. This section supersedes historical current-version notices below.
 
