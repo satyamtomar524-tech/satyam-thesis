@@ -1,5 +1,11 @@
 # Beyond Blind Spots
 
+## Current checkpoint: v37, 11 September 2026
+
+This supersedes historical checkpoints below. Three Choi/Krause citations explicitly identify the inspected publisher abstract. Citation coverage is 76 supported and 19 pending uses across eight references retaining pending uses. These are bounded source-support decisions, not verification of printed page 637 or BMW-specific measurement validity.
+
+The 97-page proof has documented visual coverage: thirteen changed pages inspected and 84 exact matches to reviewed v36 pages, with no new observed layout defect. Saved-document checks preserve tables, images, equations, section geometry and prior comments, and verify twenty caption destinations. Word reports 25,760 main-text words and 32 review comments. Frozen evidence and calculations are unchanged. The combined research question, organisational measurement validity, remaining source/claim and section review, and declarations remain open. The thesis is not submission-ready.
+
 ## Current checkpoint: v36, 11 September 2026
 
 This notice supersedes the historical checkpoints below. Two citations now identify the inspected publisher abstracts, and Kim's network study is explicitly distinguished from this thesis's category-overlap projection. Coverage is 73 supported and 22 pending citation uses across nine references retaining pending uses. Abstract support does not establish original printed-page verification or BMW-specific measurement validity.

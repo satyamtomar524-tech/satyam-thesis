@@ -2,6 +2,12 @@
 
 Updated 11 September 2026. Status: active; not submission-ready.
 
+## Current checkpoint: v37
+
+This supersedes historical version/count notices below. The working document is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v37_FIELDS_WORKING.docx`; its proof is under `tmp/pdfs/v37_navigation_review_20260911/`. Current local authority is `v37_checkpoint_validation.json`, `v37_render_coverage.json`, `citation_audit/v37_inventory.json` and `citation_audit/v37_source_batch.json` within the finalisation local folder.
+
+Three Choi/Krause locators identify the inspected publisher abstract, supporting the bounded supplier-number, differentiation and interrelationship conceptualisation. Original printed page 637 was not verified. The independent Brandon-Jones clause remains unchanged. Coverage is 76 supported and 19 pending uses across eight references retaining pending uses. All 97 proof pages have documented coverage: thirteen directly inspected changed pages and 84 exact matches to reviewed v36 pages. No new layout defect was observed. Saved-document checks preserve twenty tables, images, 26 native equations, section geometry, prior comments and 32 total comment associations; twenty caption destinations are verified. Word reports 25,760 main-text words. Frozen V4 inputs/results are unchanged. Earlier visual-record ledger-pending status is superseded by the completed saved-document checkpoint. This does not close remaining source/claim review, full argument review, the combined question, measurement validity or declarations.
+
 ## Current checkpoint: v36
 
 This supersedes the historical version notices below. The current local Word successor is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v36_FIELDS_WORKING.docx`, with its proof under `tmp/pdfs/v36_navigation_review_20260911/`. Current records are `local/v36_checkpoint_validation.json`, `local/v36_render_coverage.json`, `local/citation_audit/v36_inventory.json` and `local/citation_audit/v36_source_batch.json` under the finalisation folder.
