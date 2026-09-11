@@ -1,6 +1,16 @@
 # Beyond Blind Spots
 
-## Current citation checkpoint: v60, 11 September 2026
+## Current argument and method checkpoint: v62, 11 September 2026
+
+The current working draft completes previously under-specified answers about technology families, identity decisions and conditional evidence follow-up. It separates supplier-category memberships from claim counts and category-overlap connections, and removes an unmeasured review-workload inference. All main chapters were read in this review. Seventeen paragraph repairs retain the frozen empirical results and all 95 bounded literature-citation decisions. This is not independent human review or full source verification.
+
+Independent calculations confirm the primary network and descriptive comparisons. A local boundary fix now returns undefined density for fewer than two suppliers; none of the nine actual network outputs changes. All 43 local tests pass. The new regression and its ignored calculation dependency remain local together, so the published checkout is not given a test it cannot run.
+
+The verified saved draft has 100 pages, 26,460 Word-counted main-text words and 125 comments. Visual coverage comprises 20 directly inspected v62 pages, 12 exact image matches to individually inspected v61 pages and 68 exact matches to reviewed v60 pages. Saved formatting, 26 equations, 21 caption destinations, citation mappings and frozen hashes pass checks. The v61 extra closing-summary page was removed by consolidating repeated prose.
+
+**Needs revision; review completeness: Partial.** Broader supplier-claim semantics, the unavailable DIEFFENBACHER original source, remaining editorial repetition and final declarations remain open. The official count must include self-created figure text; 26,460 is not yet the certified declaration count. Student reading, understanding and confirmation cannot be inferred. The auto-refresh panel reports only the verified citation inventory: 100.0% completed and 0.0% remaining, not overall thesis completion. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for scoped scorecards and next steps. Restricted files remain local. Notices below are historical.
+
+## Historical citation checkpoint: v60, 11 September 2026
 
 All **95 recorded literature-citation uses now have support within their stated scopes**. The final three Caridi uses were rewritten to match the authors' abstract reproduced in the publisher-supplied RePEc record; the full article and the old printed-page locators are not certified. The bibliography identifies the consulted abstract. This milestone does not mean all source articles or all supplier claims are fully verified.
 

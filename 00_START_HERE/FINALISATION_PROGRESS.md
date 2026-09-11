@@ -1,6 +1,48 @@
 # Thesis finalisation progress
 
-## Current citation checkpoint: v60
+## Current argument and method checkpoint: v62
+
+**Needs revision; review completeness: Partial.** Current local manuscript: `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v62_FIELDS_WORKING.docx`. The main argument review read the abstract and all six main chapters, checked alignment with the research questions, and independently recomputed the principal calculations. Seventeen paragraph repairs clarify units, complete the first three supporting-question answers, bound the research-verification sequence and remove an unmeasured workload inference. The fourth supporting question retains its qualified robustness answer. No frozen empirical input or result changed. Authority: local v62 checkpoint, visual coverage, citation reconciliation, review coverage and the hash-bound argument review receipts.
+
+The primary evidence comprises 277 manufacturing/equipment, 23 vehicle-component/material and 16 digital/data claims out of 316, using the corrected family map. Identity resolution is 458 resolved and 39 unresolved canonical claim decisions out of 497, not distinct legal entities or fresh legal verification. The 92 primary claims with BMW-relationship but no exact-technology support need that missing evidence only if a technology-at-BMW assertion is intended; they remain eligible for the capability network. The dependency-based review order is not a validated efficiency improvement or procurement ranking.
+
+All 95 recorded literature-citation uses retain bounded support across 34 references. Abstract-only and selected-page limitations remain; all-source or full-article verification is not claimed. Three BMW award announcements still account for 23 of 35 primary exact claims. All 36 canonical exact claims have the earlier narrow review, with the unavailable DIEFFENBACHER original explicitly distinguished from indexed detail and generic live corroboration. Broader capability and relationship source semantics remain open.
+
+The saved v62 proof has 100 pages, 26,460 Word-counted introduction-to-conclusion words, 125 comments, 26 native equations and 21 verified caption destinations. All saved-content/formatting, source-mapping and frozen-hash checks pass. Visual coverage is 20 freshly inspected pages, 12 exact matches to individually inspected v61 images and 68 exact matches to reviewed v60 images. No confirmed layout defect remains in this proof. The suspected bibliography-spacing variation was objectively disproved; no formatting change was made. The extra v61 closing-summary page was eliminated by consolidating repeated Chapter 4 prose.
+
+Independent computation checked primary eligibility, memberships, all positive weighted-Jaccard edges, strength, shortest-path betweenness, evenness, ranks/profiles, date-subset counts and both descriptive weightings. A boundary bug in the local calculation helper was fixed: density is undefined for fewer than two suppliers, rather than zero. Four new edge-case tests and the existing 39 tests pass; all nine actual network results and frozen artifact hashes are unchanged. The helper and dependent new tests remain local/uncommitted together. The published test suite has no new dependency on an ignored implementation.
+
+The Data validation workflow required source/claim boundary checks and independent value verification; the document workflow required saved-package reconciliation and rendered-page review. These are computational and agent reviews, not student or independent human approval. Denominators below describe the inspected units, not whole-thesis accuracy percentages.
+
+### Thesis quality
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Usefulness and completeness | 0 / unknown | All main chapters read; full assertion-level source verification and final acceptance remain incomplete. |
+| Analytical clarity | 0 / 17 | Seventeen repaired paragraphs separate units, evidence decisions, conditional follow-up and interpretation. |
+| Visual consistency | 0 / 100 | All pages have direct or exact-image inherited coverage; no confirmed layout defect remains. |
+
+### Analytical correctness and robustness
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Source authority and confidence | 0 / 95 | All recorded citation uses have bounded support; supplier-source semantics and unread source content are not certified. |
+| SQL/value accuracy | 0 / 3 | Three newly reported groups independently recomputed: technology-family split, identity split and conditional 92-claim subset. Broader network checks are separately recorded. |
+| Within-chart agreement | 0 / 6 | All six existing figures inspected against the reported results; no figure was changed. |
+| Complete source-detail surfaces | N/A | Dashboard-only surfaces do not apply to the thesis manuscript. |
+| Cross-artifact consistency | 0 / 95 | Saved citation contexts, source mappings and summary fields reconciled across all recorded uses. |
+| Data-quality controls | 0 / unknown | The density boundary is repaired; frozen data unchanged. Full record-level source quality remains outside a complete verified inventory. |
+| Conclusion support | 0 / unknown | Main and four supporting-question answers reviewed; repaired omissions and overclaims do not close external validity or all-source review. |
+
+### Prioritized next steps
+
+1. **Now:** continue broader supplier capability and relationship source verification; preserve missing-original and source-dependence limitations.
+2. **Next:** finish remaining editorial repetition and official word-count reconciliation, including text in self-created figures. The old declaration value is 25,519; the Word body count of 26,460 is not yet the final certified count.
+3. **Student-owned final gate:** read and understand the thesis, critically evaluate retained AI assistance, confirm the truth of the required official declarations, and complete genuine dates/signatures. The template is unsigned; no blanket verification, privacy assertion or personal approval is inferred.
+
+The automatically refreshing local panel derives citation percentages from the newest verified checkpoint; those percentages are not whole-thesis completion. Right-side opening was queued earlier, so on-screen visibility remains unconfirmed. The goal remains active. Restricted manuscripts, source records and administration stay local. This notice supersedes historical notices below.
+
+## Historical citation checkpoint: v60
 
 **Needs revision; review completeness: Partial.** The working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v60_FIELDS_WORKING.docx`. Three Caridi citation uses were rewritten to match the directly inspected authors' abstract; one bibliography access URL was appended and Table 2.1's detached source note was repaired. No empirical input or result changed. Local authority is the finalisation folder's `v60_checkpoint_validation.json`, `v60_visual_coverage.json`, `v60_citation_reconciliation.json`, `v60_review_coverage.json` and v60 citation inventory/source batch.
 
