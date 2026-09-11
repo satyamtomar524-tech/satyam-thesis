@@ -10,6 +10,10 @@ The registered thesis title remains unchanged. Submission, publication permissio
 
 ## Current work
 
+**Current manuscript: v30 with refreshed Word fields.** The v30 revision closes the three layout findings and the Chapter 4 summary inconsistency identified during the complete v29 inspection. The source note for Table 3.3 now stays with its table, the note for Table 4.1 stays with its panels, and the two Table 4.5 panel headings use consistent styling. The summary limits its evidence statement to this dataset, removes unsupported literature-approval wording, and states that the missing combined analysis reflects an unimplemented justified bridge rather than an inherent prohibition on combining analytical grains.
+
+The 97-page PDF has documented visual coverage: all 15 changed pages were directly inspected and all 82 others were verified identical to the inspected v29 renders. The four targeted findings are closed; no new layout defect was observed. The local `v30_render_coverage.json` records artifact/page hashes and the inspection basis. This is not final academic acceptance. The current citation inventory remains 60 supported and 35 pending uses, with every citation context unchanged from v29. Word reports 25,740 main-text words. Saved-document checks preserve tables, equations, images, sections and comment associations; all twenty caption destinations are checked. The 32-test regression suite passed during the v30 repair. Frozen V4 inputs/results are unchanged. Remaining source review, the unestimated combined question, organisational validation and personal declarations are not cleared by these checks. Earlier version-specific entries below preserve history rather than current status.
+
 - Preserve the original evidence, correction snapshots and historical manuscript versions.
 - Independently check the corrected calculation rather than relying solely on previous validation reports.
 - Recheck the primary sources behind evidence decisions, recording access limits and precise claim boundaries.
@@ -19,7 +23,7 @@ The registered thesis title remains unchanged. Submission, publication permissio
 
 ## Work completed in this phase
 
-The dated/versioned entries below preserve the sequence of work. The latest reviewed working successor is v29 with refreshed Word fields; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state. This is scoped working-version review, not final academic acceptance.
+The dated/versioned entries below preserve the sequence of work. The latest reviewed working successor is v30 with refreshed Word fields; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state. This is scoped working-version review, not final academic acceptance.
 
 The new date-sensitivity implementation and synthetic regression tests are in `04_ANALYSIS/12_FINALISATION_20260910/`. The implementation reads the retained review files without changing them. It compares the non-temporal eligible population with a population restricted to recorded capability-publication intervals wholly inside the study window. Tests cover partial dates, cutoff boundaries, invalid dates, event dates, duplicate claims, missing evidence and empty graph denominators.
 
