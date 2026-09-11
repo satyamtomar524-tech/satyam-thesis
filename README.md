@@ -1,10 +1,10 @@
 # Beyond Blind Spots
 
-## Current checkpoint: v49, 11 September 2026
+## Current checkpoint: v53, 11 September 2026
 
-This notice supersedes all historical checkpoint notices below. The current local working draft includes a post-hoc descriptive comparison of evidence support across supplier profiles, with claim-pooled and equal-supplier weighting. This addresses part of the combined research question; it does not validate operational priorities, internal BMW visibility or coordination performance. The comparison was checked with separate SQL aggregation, which verifies arithmetic rather than source truth or independent human coding.
+This notice supersedes all historical checkpoint notices below. The current local working draft retains the post-hoc descriptive comparison of evidence support across supplier profiles, with claim-pooled and equal-supplier weighting. Separate SQL aggregation checks its arithmetic, not source truth, independent human coding or operational validity. Since v49, two duplicated discussion paragraphs were removed, an unverified methodology attribution was replaced with a bounded inspected source, and five appendix tables were fitted within the saved university margins. A filename-wrap defect found during visual review was also corrected.
 
-Citation verification covers 84 of 95 uses; 11 uses across three references remain pending. The two newly supported Cousins uses identify the inspected publisher abstract, not unverified full-text pages. All 99 proof pages have documented visual coverage, and 21 caption-list destinations were checked. Equations, images and frozen V4 data remain unchanged from the relevant predecessor checks. The thesis is not submission-ready: remaining source and supplier-claim verification, discussion consolidation, full argument review, university word-count reconciliation and personal declarations remain open. See the progress record for scope and local evidence pointers.
+Citation verification covers 85 of 95 uses; 10 uses across two references remain pending. Source support is limited to the inspected passages and source versions; it is not full-article verification. All 99 proof pages have documented visual coverage, and 21 caption-list destinations were checked. The v53 layout changes preserve all v51 text, run formatting, equations, images, comments and frozen V4 data. All 32 regression tests pass. The thesis is not submission-ready: remaining source and supplier-claim verification, full argument review, final word-count declarations, AI-use clarification and student review remain open. See the progress record for scope and local evidence pointers.
 
 ## Current checkpoint: v42, 11 September 2026
 
