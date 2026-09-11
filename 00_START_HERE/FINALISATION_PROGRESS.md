@@ -1,5 +1,11 @@
 # Thesis finalisation progress
 
+## Current checkpoint: v38
+
+The v38 saved-document and citation reconciliation is complete. Three reviewed uses are now supported, bringing coverage to 79 supported and 16 pending uses across six references with pending uses. Christopher/Lee uses transparent author-manuscript locators; Kalaiarasan's summary includes barriers and challenges and identifies the consulted abstract. Other authors' propositions in the mixed paragraph remain unchanged. Source-text support is not source-PDF visual verification or empirical BMW validation.
+
+All 97 proof pages have documented visual coverage: seven directly inspected and 90 exact matches to reviewed v37 pages. Twenty caption-list destinations were independently checked against the PDF's printed pages. The saved text and document structures are preserved apart from the intended edits and three added comments; additional XML differences were verified as serialization-only. Word reports 25,766 main-text words and 35 comments. Frozen V4 hashes remain unchanged. Remaining evidence and argument review, the unestimated combined question, organisational measurement validity and declarations prevent submission readiness. All 32 regression tests pass. This disclosure-safe update excludes the local manuscript and detailed evidence.
+
 Updated 11 September 2026. Status: active; not submission-ready.
 
 ## Current checkpoint: v37

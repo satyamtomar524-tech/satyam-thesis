@@ -1,5 +1,11 @@
 # Beyond Blind Spots
 
+## Current checkpoint: v38, 11 September 2026
+
+This supersedes historical checkpoints below. Christopher/Lee citations identify the inspected author-manuscript pagination, and the Kalaiarasan framework summary restores barriers and challenges and identifies the consulted abstract. Coverage is 79 supported and 16 pending citation uses across six references with pending uses. Source-version and text-only inspection limits remain explicit; these checks do not validate BMW-specific organisational measures.
+
+The 97-page proof has complete documented visual coverage: seven changed pages inspected and 90 exact matches to reviewed v37 pages. Twenty caption-list destinations match the PDF's printed pages. Word reports 25,766 main-text words and 35 review comments. Saved-text, table, image, equation, section and comment checks passed; other package changes were verified as serialization-only. Frozen evidence and calculation hashes are unchanged. Remaining source/claim and argument review, the combined research question, organisational measurement validity and declarations remain open. The thesis is not submission-ready.
+
 ## Current checkpoint: v37, 11 September 2026
 
 This supersedes historical checkpoints below. Three Choi/Krause citations explicitly identify the inspected publisher abstract. Citation coverage is 76 supported and 19 pending uses across eight references retaining pending uses. These are bounded source-support decisions, not verification of printed page 637 or BMW-specific measurement validity.
