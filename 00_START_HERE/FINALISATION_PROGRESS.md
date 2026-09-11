@@ -18,7 +18,7 @@ The Data validation workflow required source/claim boundary checks and independe
 
 | Category | Observed defects | Assessment |
 | --- | --- | --- |
-| Usefulness and completeness | 0 / unknown | All main chapters read; full assertion-level source verification and final acceptance remain incomplete. |
+| Usefulness and completeness | 1 / unknown | The declaration still contains an obsolete word count. All main chapters were read; full assertion-level source verification and final acceptance remain incomplete. |
 | Analytical clarity | 0 / 17 | Seventeen repaired paragraphs separate units, evidence decisions, conditional follow-up and interpretation. |
 | Visual consistency | 0 / 100 | All pages have direct or exact-image inherited coverage; no confirmed layout defect remains. |
 
