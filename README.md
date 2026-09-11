@@ -1,5 +1,11 @@
 # Beyond Blind Spots
 
+## Current checkpoint: v49, 11 September 2026
+
+This notice supersedes all historical checkpoint notices below. The current local working draft includes a post-hoc descriptive comparison of evidence support across supplier profiles, with claim-pooled and equal-supplier weighting. This addresses part of the combined research question; it does not validate operational priorities, internal BMW visibility or coordination performance. The comparison was checked with separate SQL aggregation, which verifies arithmetic rather than source truth or independent human coding.
+
+Citation verification covers 84 of 95 uses; 11 uses across three references remain pending. The two newly supported Cousins uses identify the inspected publisher abstract, not unverified full-text pages. All 99 proof pages have documented visual coverage, and 21 caption-list destinations were checked. Equations, images and frozen V4 data remain unchanged from the relevant predecessor checks. The thesis is not submission-ready: remaining source and supplier-claim verification, discussion consolidation, full argument review, university word-count reconciliation and personal declarations remain open. See the progress record for scope and local evidence pointers.
+
 ## Current checkpoint: v42, 11 September 2026
 
 This supersedes the historical checkpoints below. The latest working manuscript distinguishes observed supplier-technology structure from untested hypotheses about information-processing demand. Seven passages were corrected across the introduction, framework and discussion. Earlier Kembro and Holweg/Pil repairs narrow attributions to the inspected source passages. Citation verification covers 82 of 95 uses; 13 uses across four references remain pending. This is citation coverage, not overall thesis completion.

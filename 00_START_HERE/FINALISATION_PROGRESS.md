@@ -1,5 +1,15 @@
 # Thesis finalisation progress
 
+## Current checkpoint: v49
+
+This supersedes historical current-version notices below. The local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v49_FIELDS_WORKING.docx`; its 99-page proof is under `tmp/pdfs/v49_navigation_review_20260911/`. Within the finalisation local folder, authority is recorded in `v49_checkpoint_validation.json`, `v49_visual_coverage.json`, `v49_review_consistency.json`, `citation_audit/v49_inventory.json` and `citation_audit/v49_source_batch.json`. Restricted manuscript and evidence artifacts remain local.
+
+Since v42, the combined-question analysis now includes a post-hoc, descriptive supplier-profile comparison with claim-pooled and equal-supplier weighting. Separate SQL aggregation corroborates the arithmetic, not independent human coding, source validity or operational measurement. Related methods, results, discussion and conclusion passages were aligned; Table 4.6 presents the comparison. Operational prioritisation remains unvalidated, and taxonomy-grain sensitivity remains limited.
+
+Citation coverage is 84 supported uses and 11 pending uses across three references. Cousins is bounded to the publisher abstract; the saved review receipt is explicitly not an original source capture. Other captured-source hashes passed reconciliation. Between v48 and v49 only paragraphs 230 and 551 changed; all 21 table texts, 84 comments and their paragraph attachment points were preserved. Six changed proof pages were directly inspected and 93 exactly match reviewed v48 renderings. All 99 pages have visual coverage; 21 caption-list destinations, equation/image preservation and frozen V4 hashes passed checks.
+
+Word reports 26,201 main-text words under its recorded range definition; this is not yet reconciled with university counting rules. Remaining work includes source and supplier-claim verification, repeated contribution text in section 5.7, full argument review, final declarations and student review. The progress panel reports citation verification only (88.4% complete, 11.6% remaining), not whole-thesis completion. Final submission acceptance remains false.
+
 ## Current checkpoint: v42
 
 This supersedes historical current-version notices below. The verified local working manuscript is `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v42_FIELDS_WORKING.docx`, with its 97-page proof under `tmp/pdfs/v42_navigation_review_20260911/`. Verification records are `local/v42_checkpoint_validation.json`, `local/v42_render_coverage.json`, `local/citation_audit/v42_inventory.json` and `local/citation_audit/v42_source_batch.json` under the finalisation folder. These restricted artifacts remain local.
