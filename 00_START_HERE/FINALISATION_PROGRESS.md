@@ -19,7 +19,7 @@ The registered thesis title remains unchanged. Submission, publication permissio
 
 ## Work completed in this phase
 
-The dated/versioned entries below preserve the sequence of work. The latest reviewed working successor is v27 with refreshed Word fields; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state. This is scoped working-version review, not final academic acceptance.
+The dated/versioned entries below preserve the sequence of work. The latest reviewed working successor is v28 with refreshed Word fields; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state. This is scoped working-version review, not final academic acceptance.
 
 The new date-sensitivity implementation and synthetic regression tests are in `04_ANALYSIS/12_FINALISATION_20260910/`. The implementation reads the retained review files without changing them. It compares the non-temporal eligible population with a population restricted to recorded capability-publication intervals wholly inside the study window. Tests cover partial dates, cutoff boundaries, invalid dates, event dates, duplicate claims, missing evidence and empty graph denominators.
 
@@ -141,6 +141,16 @@ All 32 regression tests pass. Saved-document verification preserves twenty table
 
 All ten changed pages were visually inspected, together with two previously uncovered pages. Sixty-one further pages match previously inspected v26 pages exactly, giving 73 of 97 pages with documented inspection. Page 6 has open abbreviation-alignment findings; coverage does not mean every inspected page is accepted. The broader theory discussion still needs review of its demand/capacity analogy and unmeasured capacity-improvement wording. Those findings are retained in `v27_render_coverage.json`; they are not hidden by the narrower definition repairs. The canonical renderer remains unavailable. Word initially failed in the restricted session, then an approved elevated export succeeded with the documented post-export close warning. Raster comparison uses matched 1800-pixel page geometry, after rejecting an initial mismatched-DPI rendering.
 
+## 11 September: theory interpretation and abbreviation repair, v28
+
+The revised theory section distinguishes represented variety and public-claim support from actual organisational information demand and processing capacity. It removes an unmeasured before-and-after improvement claim and a duplicate paragraph. The discussion conclusion now limits its inference to this dataset instead of implying that all public evidence is incapable of establishing organisational conditions. These are interpretation repairs, not empirical validation or completion of the combined research question.
+
+Nineteen abbreviation entries now have independently aligned labels and wrapped definitions. All fifteen changed PDF pages were inspected at readable resolution; no clipping or overlap was observed. Exact image identity carries forward documented inspection of 58 other pages, yielding 73 of 97 pages with inspection coverage. The former abbreviation-alignment finding is closed. This remains partial visual review, not final document acceptance.
+
+Saved-document checks preserve all twenty tables, image assets, 26 native math structures and 22 mapped review-comment associations. All 95 citation contexts remain unchanged after explicit paragraph-index remapping. Citation coverage remains 52 supported uses across fifteen references, with 43 uses across nineteen references pending. Word reports 25,616 main-text words; the declaration retains its historical count pending finalisation. The V4 evidence and result hashes are unchanged.
+
+The broader chapter review identified remaining argument issues in Sections 2.4 and 2.6: distinguish a demonstrated literature gap from this dataset's measurement needs; avoid claiming that further public searching is universally insufficient; reconcile residual information-requirement wording and the unmeasured claim of substantial diagnostic value. These findings are retained in the local visual/argument review record and must not be treated as resolved by the Section 2.2 repair. Holweg and Pil is the next selected source check: publisher metadata and abstract were located, but full-text retrieval failed in this pass, so no page-specific support was cleared.
+
 ## Completion requirements
 
 | Requirement | Current status | Evidence needed for completion |
@@ -151,7 +161,7 @@ All ten changed pages were visually inspected, together with two previously unco
 | Calculations verified | In progress | Independent recomputation from selected rows and relevant boundary tests |
 | Results, figures and conclusions consistent | V4 results and narrative integrated; final audit pending | Final cross-artifact reconciliation after source/citation review |
 | Academic citations support their passages | Fifteen-source bounded coverage documented; full audit pending | Current ledger supports 52 of 95 recognised uses; 43 uses and remaining bibliographic checks require review. Latest source has text-only capture limits. |
-| Word and PDF ready | Not ready | Twenty caption-list page destinations verified; 73/97 pages inspected, with abbreviation alignment findings open; final all-page acceptance and count/declaration reconciliation still required |
+| Word and PDF ready | Not ready | Twenty caption-list page destinations verified; 73/97 pages inspected and abbreviation alignment repaired; final all-page acceptance and count/declaration reconciliation still required |
 | Declarations and submission requirements | Open | Accurate AI-use record, student review and required personal/official confirmations |
 | GitHub updated safely | In progress | Reviewed commits and verified remote state, with restricted files excluded |
 | Final no-known-unresolved-issue audit | Not achieved | Requirement-level evidence; unavoidable limitations explicitly documented |
@@ -161,6 +171,8 @@ All ten changed pages were visually inspected, together with two previously unco
 The repository is private, but privacy does not itself establish university or third-party publication permission. Manuscripts, raw inputs, row-level evidence, administrative documents and detailed audit outputs remain local under the existing ignore rules. Only reviewed code, synthetic tests and disclosure-safe documentation are eligible for commits. Existing uncommitted folder-reorganization changes are preserved and are not automatically included in a new commit.
 
 ## Resume
+
+**Current v28 entry point:** Use `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v28_FIELDS_WORKING.docx`, `tmp/pdfs/v28_navigation_review_20260911/`, `local/citation_audit/v28_inventory.json`, `local/citation_audit/v28_source_batch.json`, `local/v28_checkpoint_validation.json` and `local/v28_render_coverage.json`. The v27 paths below remain historical provenance only. Next, review the substantive findings in Sections 2.4 and 2.6 and continue the nineteen-reference source audit, starting with Holweg and Pil. The Section 2.2 and abbreviation repairs are complete in the recorded scope; do not repeat them. No combined result, final source approval or submission readiness is implied.
 
 Use the current local finalisation evidence alongside the September 7 correction snapshot. Do not infer that an old `DONE`, `PASS` or manuscript filename means that finalisation is complete. Computational checks do not independently verify source meaning, and completed source checks do not establish student understanding.
 
