@@ -19,7 +19,7 @@ The registered thesis title remains unchanged. Submission, publication permissio
 
 ## Work completed in this phase
 
-The dated/versioned entries below preserve the sequence of work. The latest reviewed working successor is v28 with refreshed Word fields; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state. This is scoped working-version review, not final academic acceptance.
+The dated/versioned entries below preserve the sequence of work. The latest reviewed working successor is v29 with refreshed Word fields; earlier descriptions of pending integration refer to those earlier checkpoints, not the current state. This is scoped working-version review, not final academic acceptance.
 
 The new date-sensitivity implementation and synthetic regression tests are in `04_ANALYSIS/12_FINALISATION_20260910/`. The implementation reads the retained review files without changing them. It compares the non-temporal eligible population with a population restricted to recorded capability-publication intervals wholly inside the study window. Tests cover partial dates, cutoff boundaries, invalid dates, event dates, duplicate claims, missing evidence and empty graph denominators.
 
@@ -151,6 +151,14 @@ Saved-document checks preserve all twenty tables, image assets, 26 native math s
 
 The broader chapter review identified remaining argument issues in Sections 2.4 and 2.6: distinguish a demonstrated literature gap from this dataset's measurement needs; avoid claiming that further public searching is universally insufficient; reconcile residual information-requirement wording and the unmeasured claim of substantial diagnostic value. These findings are retained in the local visual/argument review record and must not be treated as resolved by the Section 2.2 repair. Holweg and Pil is the next selected source check: publisher metadata and abstract were located, but full-text retrieval failed in this pass, so no page-specific support was cleared.
 
+## 11 September: bounded research-gap and utility claims, v29
+
+Twelve paragraphs received targeted text replacements. Sections 2.4 and 2.6 now distinguish represented category structure from untested coordination requirements, descriptive uses from unmeasured practical diagnostic value, and study-specific measurement requirements from demonstrated literature gaps. The claim that a relevant framework is absent elsewhere was removed. Further public evidence may resolve individual claims; the text no longer implies that public searching is necessarily futile or that internal data are universally required. These corrections do not establish novelty, organisational validity or the missing combined result.
+
+Saved-document checks preserve 683 body paragraphs, twenty tables, image assets, 26 native mathematical structures, section geometry and 22 comment associations. All 52 supported citation contexts are unchanged. Three modified Kembro/Caridi contexts remain pending; total coverage remains 52 supported and 43 pending uses. V4 inputs and results retain their hashes. Twenty caption-list destinations match their printed pages. All 32 synthetic regression tests pass.
+
+Word reports 25,723 main-text words and 97 pages. All nine changed pages were visually inspected without observed clipping, overlap or broken tables; 64 additional pages match documented predecessor inspections. Coverage remains 73/97, not final acceptance. The canonical renderer failed because soffice.exe is unavailable; approved Word export succeeded with the recorded post-export close warning. The historical declaration count is not certified and awaits final text.
+
 ## Completion requirements
 
 | Requirement | Current status | Evidence needed for completion |
@@ -172,7 +180,7 @@ The repository is private, but privacy does not itself establish university or t
 
 ## Resume
 
-**Current v28 entry point:** Use `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v28_FIELDS_WORKING.docx`, `tmp/pdfs/v28_navigation_review_20260911/`, `local/citation_audit/v28_inventory.json`, `local/citation_audit/v28_source_batch.json`, `local/v28_checkpoint_validation.json` and `local/v28_render_coverage.json`. The v27 paths below remain historical provenance only. Next, review the substantive findings in Sections 2.4 and 2.6 and continue the nineteen-reference source audit, starting with Holweg and Pil. The Section 2.2 and abbreviation repairs are complete in the recorded scope; do not repeat them. No combined result, final source approval or submission readiness is implied.
+**Current v29 entry point:** Use `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v29_FIELDS_WORKING.docx`, `tmp/pdfs/v29_navigation_review_20260911/`, `local/citation_audit/v29_inventory.json`, `local/citation_audit/v29_source_batch.json`, `local/v29_checkpoint_validation.json` and `local/v29_render_coverage.json`. Earlier v27/v28 paths are historical provenance only. The targeted Section 2.4 and 2.6 overclaims are repaired; continue remaining source checks, section review and all-page verification. Preserve the unestimated combined question and other genuine limitations; do not treat narrower wording as missing empirical work completed.
 
 Use the current local finalisation evidence alongside the September 7 correction snapshot. Do not infer that an old `DONE`, `PASS` or manuscript filename means that finalisation is complete. Computational checks do not independently verify source meaning, and completed source checks do not establish student understanding.
 
