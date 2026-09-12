@@ -1,58 +1,139 @@
-# Beyond Blind Spots: Using Business Analytics to Assess Visibility and Coordination Complexity in BMW's Supplier Technology Ecosystem
+# Beyond Blind Spots
 
-This repository is the reproducible research workspace for Satyam Tomar's master's thesis. It connects evidence collection, data preparation, analysis, figures, tables, and chapter writing while keeping the thesis's evidential limits explicit.
+## Current review checkpoint: manuscript v66 and V5 data, 12 September 2026
 
-## Research boundary
+The local v66 manuscript preserves the V5 analytical results and makes two unresolved Dürr entity/time attributions explicit in the methods. Corporate affiliation is not sufficient to transfer a capability or BMW relationship between legal entities. Original supplier keys remain available for evidence joins; frozen V4 and V5 files are unchanged.
 
-The empirical object is a publicly evidenced representation of a supplier technology ecosystem. Repository outputs may identify observable evidence gaps and structural coordination-complexity proxies. They must not be presented as proof of BMW's complete supplier network, BMW's internal visibility, supplier performance, coordination failure, or verified supplier-to-supplier commercial relationships.
+V5 contains 316 primary claims, 177 suppliers, 218 supplier-category memberships, 2,577 positive overlap pairs out of 15,576 possible pairs, and profile counts of 96/64/2/15. The methods and reproducibility appendix now describe the additional N01–N06 / R01–R15 sensitivity audit accurately, including its exclusions. Audited centralities, displayed scores, classifications and agreement denominators agree. A separate, hash-bound supplement corrects 12 diagnostic distinct-score fields affected by Decimal split ties; scores, profiles and thresholds are unchanged. Computational agreement is not source verification or construct validation.
 
-## Working flow
+The saved v66 review has 100 pages and a reconciled figure-inclusive count of 27,125 words: 26,678 main-text words plus 447 words embedded in six unchanged self-created figures. Ninety-four citation contexts are verbatim; only the changed surrounding audit description was rechecked against the retained O’Connor/Joffe passages. All 95 recorded uses retain bounded passage/abstract support, not full-article certification. Personal declaration wording and signature fields are unchanged; only the numerical word count and reviewer comments were updated.
 
-```text
-Research question
-      ↓
-Public evidence and provenance log
-      ↓
-Raw/local and external evidence → cleaning scripts → cleaned data
-      ↓
-Notebooks and reproducible analyses → validated final data
-      ↓
-Figures and tables → results → discussion → conclusion
-      ↓
-Reviewed commit and GitHub history
-```
+The local analytical workbook and current source-review companions retain historical records and distinguish capability from a BMW relationship. The original DIEFFENBACHER 2017 PDF remains unavailable: indexed original details are not replaced by generic live corroboration. Neither that limitation nor the qualified Dürr attributions is closed by the v66 wording change.
 
-## Repository map
+The core V5 calculation has been rerun in an isolated private folder and reproduces all JSON values. The supported command now accepts a safe new output destination, records all nine code hashes and refuses overwrites. See [V5 reproduction instructions](04_ANALYSIS/12_FINALISATION_20260910/REPRODUCIBILITY.md). The legacy figure builder still pins raw file hashes and is not a complete fresh-run presentation pipeline.
 
-| Path | Purpose |
-| --- | --- |
-| `data/raw/` | Local-only source material; contents are ignored by Git |
-| `data/external/` | Public external evidence or documented extracts that are safe to retain |
-| `data/cleaned/` | Script-generated, normalized data |
-| `data/final/` | Validated analysis-ready tables |
-| `scripts/` | Reusable Python, R, and SQL transformations |
-| `notebooks/` | Reproducible exploration and model experiments |
-| `analysis/` | Descriptive, supplier, complexity, and statistical outputs |
-| `figures/` and `tables/` | Thesis-ready visual and tabular outputs |
-| `thesis/` | Chapter working files |
-| `documentation/` | Data dictionary, methodology decisions, workflow, and analysis log |
-| `powerbi/`, `spss/`, `knime/` | Tool-specific project artifacts |
-| `references/` | Reference-management exports and source notes |
+Saved-file checks preserve 215 prior comments, all 26 native equations, the table layout and all seven embedded images. All 21 caption destinations agree with the PDF. Six changed pages were directly inspected; 94 byte-identical pages inherit the previous visual review.
 
-## Reproducibility rules
+**Needs revision; not submission-ready.** Remaining work includes supplier source/entity admission decisions, a validated successor for the known metadata arithmetic defect and fresh-run presentation limitations, and the student's final reading and truthful declarations. Restricted manuscripts, source records, detailed audit receipts and analytical workbooks remain local. Notices below are historical, not current authority.
 
-1. Preserve reported source values; perform normalization only in derived data.
-2. Give every supplier-technology record a stable identifier and provenance record.
-3. Record source URL, source type, publication date when known, retrieval date, and verification status.
-4. Generate cleaned and final data with scripts or documented notebook steps.
-5. Keep model features separate from any observed target variable and document leakage checks.
-6. Record every consequential analytical decision in `documentation/analysis_log.md`.
-7. Commit only material that is public, licensed, authorized, or safely derived.
+## Historical argument and method checkpoint: v62, 11 September 2026
 
-## Confidentiality
+The current working draft completes previously under-specified answers about technology families, identity decisions and conditional evidence follow-up. It separates supplier-category memberships from claim counts and category-overlap connections, and removes an unmeasured review-workload inference. All main chapters were read in this review. Seventeen paragraph repairs retain the frozen empirical results and all 95 bounded literature-citation decisions. This is not independent human review or full source verification.
 
-Do not commit BMW-origin workbooks, project briefs, personal records, or other restricted material without written authorization. The known local thesis workbook, thesis document, and official confirmation are intentionally excluded from Git tracking by `.gitignore`.
+Independent calculations confirm the primary network and descriptive comparisons. A local boundary fix now returns undefined density for fewer than two suppliers; none of the nine actual network outputs changes. All 43 local tests pass. The new regression and its ignored calculation dependency remain local together, so the published checkout is not given a test it cannot run.
 
-## Current status
+The verified saved draft has 100 pages, 26,460 Word-counted main-text words and 125 comments. Visual coverage comprises 20 directly inspected v62 pages, 12 exact image matches to individually inspected v61 pages and 68 exact matches to reviewed v60 pages. Saved formatting, 26 equations, 21 caption destinations, citation mappings and frozen hashes pass checks. The v61 extra closing-summary page was removed by consolidating repeated prose.
 
-The project structure and governance files are initialized. Data ingestion, source verification, quality assessment, and modeling remain separate controlled steps.
+**Needs revision; review completeness: Partial.** Broader supplier-claim semantics, the unavailable DIEFFENBACHER original source, remaining editorial repetition and final declarations remain open. The official count must include self-created figure text; 26,460 is not yet the certified declaration count. Student reading, understanding and confirmation cannot be inferred. The auto-refresh panel reports only the verified citation inventory: 100.0% completed and 0.0% remaining, not overall thesis completion. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for scoped scorecards and next steps. Restricted files remain local. Notices below are historical.
+
+## Historical citation checkpoint: v60, 11 September 2026
+
+All **95 recorded literature-citation uses now have support within their stated scopes**. The final three Caridi uses were rewritten to match the authors' abstract reproduced in the publisher-supplied RePEc record; the full article and the old printed-page locators are not certified. The bibliography identifies the consulted abstract. This milestone does not mean all source articles or all supplier claims are fully verified.
+
+Table 2.1 now keeps its final row and complete source note together on the continuation page, with a repeated header. The saved draft passes content, source-mapping, formatting, comment, equation and navigation checks. All 100 proof pages have visual coverage: 24 changed pages inspected directly and 76 exact matches to the reviewed predecessor. Word reports 26,233 main-text words and 108 review comments. All 39 regression tests pass; frozen evidence and empirical results are unchanged.
+
+The read-only local progress panel automatically picked up v60: **100.0% citation completion, 0.0% remaining**, refreshing every five seconds. Overall thesis completion remains unquantified and explicitly not submission-ready. Right-side opening was previously queued; on-screen visibility is unconfirmed. Broader supplier-source and full argument review, final declarations and student review remain open. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for the scope and remaining work. Restricted files remain local. All notices below are historical.
+
+## Historical citation checkpoint: v59, 11 September 2026
+
+Five unverified literature attributions have been replaced by narrower propositions supported by directly inspected Wang/Strong and Brandon-Jones source pages. The changed prose separates those authors' concepts from this study's public-evidence application. Citation coverage is now 92 supported uses out of 95; three Caridi uses still await source-page verification. Unread pages have not been retrospectively certified.
+
+The live local progress panel automatically shows **96.8% citation completion and 3.2% remaining**, refreshing every five seconds. This is not an overall thesis-completion percentage. Opening the panel on the right was queued by the app; on-screen visibility remains unconfirmed.
+
+The saved v59 checkpoint passed content, citation mapping, frozen-data, comment, equation and caption-navigation checks; all 39 regression tests pass. Word reports 99 pages, 26,234 main-text words and 104 review comments. Nineteen changed pages were directly inspected and 80 match reviewed v58 images exactly. One layout defect is recorded: Table 2.1's source note falls onto the following page. The draft is not submission-ready. Broader source and argument review, declarations and student review remain open; see [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md). Restricted files remain local. Notices below are historical.
+
+## Historical checkpoint: v58, 11 September 2026
+
+Two paragraphs now distinguish announced future applications from completed delivery or operational deployment. Table 4.1 labels exact BMW-technology links without treating every link as confirmed BMW use. Frozen V4 evidence, eligibility and calculations remain unchanged.
+
+A complementary source review covers the remaining 13 canonical exact-technology claims. Together with the earlier 23 award/application claims, all 36 canonical exact claims (35 primary-eligible) now have a narrow source review. This is not full original-source verification: the DIEFFENBACHER 2017 PDF remains unavailable, and indexed original detail is explicitly distinguished from live generic corroboration. The local companion corrects Dürr's order-quarter scope and preserves prospective, research and indirect production-chain qualifications.
+
+The v58 checkpoint check passed. All 99 proof pages have visual coverage: seven directly inspected and 92 exact matches to reviewed v57 pages. Word reports 26,202 main-text words and 99 comments; 21 caption destinations, 26 native equations and all 39 regression tests pass the scoped checks. Literature support remains 87 of 95 citation uses, with eight uses across two references pending.
+
+Restricted manuscripts and detailed evidence remain local. Broader supplier/source checks, full argument review, declarations and student review remain open. No human acceptance or submission readiness is claimed. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md). All notices below are historical.
+
+## Historical checkpoint: v57, 11 September 2026
+
+The methods now distinguish avoiding duplicate claim counts from dependence between different claims supported by the same publication. A targeted reading of four official BMW webpages corroborated 23 existing narrow award/application claims. The pages represent only three announcements: the Canadian and global 2022 pages are regional versions of one announcement. A separate SQL join confirms that these sources support 23 of the 35 primary exact-technology claims (23 of 36 canonical exact claims overall). The discussion now states this concentration beside the descriptive comparison; neither weighting rule makes the source evidence independent.
+
+The two paragraph edits preserve frozen V4 evidence, eligibility and calculations. Literature citation support remains 87 of 95 uses, with eight pending uses across two references; all citation contexts are unchanged. All 99 proof pages have visual coverage: 12 changed pages directly inspected and 87 exact matches to v56. Saved-character formatting, 26 native equations, images, tables, 97 comment associations, 21 caption destinations and the two refreshed contents entries pass checks. Word reports 26,187 main-text words. All 39 regression tests pass.
+
+This is targeted source corroboration, not independent human verification, legal-entity revalidation or proof of current contracts, operational performance or historical webpage identity. Restricted manuscripts and detailed review receipts remain local. The thesis still needs remaining supplier/source and full argument review, final declarations and student review; it is not submission-ready. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for source links and verification scope. Earlier notices below are historical.
+
+## Historical checkpoint: v56, 11 September 2026
+
+This notice supersedes all historical checkpoint notices below. The draft aligns the four visibility claim dimensions with the implemented decisions: supplier identity, candidate capability, same-entity BMW relationship and exact BMW-technology support. Traceability and dates qualify every dimension. The text no longer presents independent evidence states as an ordinal supplier score or treats historical codes as current eligibility rules. v54's publication-date and framework-attribution corrections are retained, including two explicitly abstract-supported Barratt/Oke uses. The post-hoc comparison remains descriptive; operational priorities are unvalidated.
+
+Citation verification remains 87 of 95 uses, with eight uses across two references pending. All citation contexts and decisions are unchanged from v54. Source support is bounded to inspected passages and versions, not full-article verification. The shared summary checks and all 39 regression tests pass. All 99 pages have visual coverage: ten changed pages inspected and 89 exact matches to v54. Saved-file checks preserve text outside seven paragraph and one table-cell edits, formatting, equations, images, previous comments and frozen V4 data; 21 caption destinations and source-record mappings agree. v56 corrects a section number introduced in v55; all nine explicit methods-section references now match the contents list and PDF destinations. The thesis is not submission-ready: remaining sources and supplier claims, further terminology and argument review, final word-count declarations, AI-use clarification and student review remain open.
+
+## Current checkpoint: v42, 11 September 2026
+
+This supersedes the historical checkpoints below. The latest working manuscript distinguishes observed supplier-technology structure from untested hypotheses about information-processing demand. Seven passages were corrected across the introduction, framework and discussion. Earlier Kembro and Holweg/Pil repairs narrow attributions to the inspected source passages. Citation verification covers 82 of 95 uses; 13 uses across four references remain pending. This is citation coverage, not overall thesis completion.
+
+The 97-page proof has documented visual coverage: seven changed pages inspected and 90 exact matches to reviewed v41 pages. Saved-document checks preserve tables, images, 26 native equations, section geometry and earlier comments, and verify 20 caption-list destinations. Word reports 25,802 main-text words and 46 review comments. Frozen evidence and calculation hashes are unchanged. The combined research question, remaining source and supplier-claim checks, full section review and final declarations remain open. This is not a submission-ready thesis.
+
+## Current checkpoint: v38, 11 September 2026
+
+This supersedes historical checkpoints below. Christopher/Lee citations identify the inspected author-manuscript pagination, and the Kalaiarasan framework summary restores barriers and challenges and identifies the consulted abstract. Coverage is 79 supported and 16 pending citation uses across six references with pending uses. Source-version and text-only inspection limits remain explicit; these checks do not validate BMW-specific organisational measures.
+
+The 97-page proof has complete documented visual coverage: seven changed pages inspected and 90 exact matches to reviewed v37 pages. Twenty caption-list destinations match the PDF's printed pages. Word reports 25,766 main-text words and 35 review comments. Saved-text, table, image, equation, section and comment checks passed; other package changes were verified as serialization-only. Frozen evidence and calculation hashes are unchanged. Remaining source/claim and argument review, the combined research question, organisational measurement validity and declarations remain open. The thesis is not submission-ready.
+
+## Current checkpoint: v37, 11 September 2026
+
+This supersedes historical checkpoints below. Three Choi/Krause citations explicitly identify the inspected publisher abstract. Citation coverage is 76 supported and 19 pending uses across eight references retaining pending uses. These are bounded source-support decisions, not verification of printed page 637 or BMW-specific measurement validity.
+
+The 97-page proof has documented visual coverage: thirteen changed pages inspected and 84 exact matches to reviewed v36 pages, with no new observed layout defect. Saved-document checks preserve tables, images, equations, section geometry and prior comments, and verify twenty caption destinations. Word reports 25,760 main-text words and 32 review comments. Frozen evidence and calculations are unchanged. The combined research question, organisational measurement validity, remaining source/claim and section review, and declarations remain open. The thesis is not submission-ready.
+
+## Current checkpoint: v36, 11 September 2026
+
+This notice supersedes the historical checkpoints below. Two citations now identify the inspected publisher abstracts, and Kim's network study is explicitly distinguished from this thesis's category-overlap projection. Coverage is 73 supported and 22 pending citation uses across nine references retaining pending uses. Abstract support does not establish original printed-page verification or BMW-specific measurement validity.
+
+All 97 proof pages have documented visual coverage: three changed pages inspected and 94 exact matches to reviewed v35 pages, with no new observed layout defect. Saved-document checks preserve tables, images, equations, section geometry and prior comments; twenty caption destinations are verified. Word reports 25,757 main-text words and 29 review comments. Frozen evidence and calculation outputs are unchanged. Remaining source/claim review, full argument review, the combined research question, organisational measurement validity and declarations remain open. The thesis is not submission-ready.
+
+## Current checkpoint: v35, 11 September 2026
+
+This section supersedes the historical version notices below. The working draft corrects Roy's source-version locator and separates literature principles from study-specific execution in the reliability paragraph. Citation coverage is 71 supported and 24 pending uses across 11 references with pending uses. Source support remains bounded to the inspected passages and versions; it does not establish independent human verification or organisational validity.
+
+The 97-page proof has complete documented visual coverage: ten changed pages inspected and 87 exact matches to previously reviewed pages. No new layout defect was observed. Word reports 25,741 main-text words. Evidence and calculation outputs are unchanged. The intermediate v34 pagination regression was not promoted. The combined research question, remaining source and section reviews, measurement validity and final declarations remain open. This is not a submission-ready thesis.
+
+**Citation supplement v33B:** The manuscript remains v33. Kache/Seuring's information-quality use is now supported by inspected printed page 10, giving 68 supported and 27 pending citation uses. All earlier supported contexts remain unchanged. Christen's preface pages were visually inspected; its thesis-specific attribution remains pending, together with the Roy locator and Chapman paragraph 373 repair. This supersedes older citation totals, not document or empirical-result versions.
+
+**Citation supplement v33A, 11 September 2026:** The v33 manuscript is unchanged. Two bounded data-quality uses are now supported after inspecting Wang/Strong and Chapman source pages, bringing coverage to 67 supported and 28 pending uses. Downloaded PDF bytes and inspected page-image hashes are retained locally. The Chapman National Library copy lacks final printed folios; the relevant passages were matched to the publisher's page-indexed text. Its separate calculation-check citation still needs clearer attribution and remains pending. Source support does not verify the thesis's empirical implementation. This notice supersedes earlier citation totals only.
+
+**Current working version: v33, 11 September 2026.** Two reproducibility citations now identify the consulted Koot/Mes/Iacob preproof section and distinguish the literature rationale from this study's implementation. The current audit supports 65 of 95 citation uses; 30 remain pending. Source inspection was text-only and the retained record is review notes, not original PDF bytes. The 97-page proof has complete documented visual coverage: seven changed pages inspected and 90 exact matches to reviewed v31 pages. A nearly empty extra page in the intermediate v32 proof was eliminated by tightening the prose. Word reports 25,746 main-text words; all 32 tests pass. Evidence, results, tables, figures and equations are unchanged. This supersedes earlier current-version notices below. The thesis remains a working draft with source review, combined-question, measurement-validity and declaration work open.
+
+**Current working version: v31, 11 September 2026.** The methodology now cites Sikos/Philp for the general provenance-granularity principle and explicitly identifies the BMW capability/relationship separation as this study's application. Citation coverage is 63 supported and 32 pending uses; earlier totals below are historical. All 97 proof pages have documented visual coverage (11 reflowed pages directly inspected, 86 verified identical to inspected v30 pages), with no new layout defect observed. Word reports 25,759 main-text words. All 32 tests pass. Tables, figures, equations and frozen V4 inputs/results are unchanged; an anchored review comment records the repair. The thesis is not submission-ready: remaining sources, the combined question, organisational validation and personal declarations are still open.
+
+**Latest citation supplement: v30A, 11 September 2026.** Two bounded Sikos/Philp provenance uses now have publisher-text support, bringing coverage to 62 supported and 33 pending uses. Its BMW-specific attribution remains pending correction. Source-page images and original PDF bytes were not verified: the local download returned HTML. The earlier Barratt/Oke and Caridi checks recorded access limits and pinpoint/attribution follow-ups without clearing their uses. The v30 manuscript and calculations are unchanged. This supersedes citation counts below, not their historical audit records.
+
+**Current working version, 11 September 2026: v30.** The two detached table notes and inconsistent sensitivity-panel headings are repaired. The Chapter 4 summary now correctly attributes the missing combined analysis to an unimplemented justified aggregation or multilevel interpretation, rather than claiming that different analytical grains make combination impossible. The correction does not answer the combined research question. All 97 proof pages have documented visual coverage: 15 changed pages directly inspected and 82 verified identical to inspected v29 pages. No new layout defect was observed. Citation coverage remains 60 supported and 35 pending uses; the v30 audit binds those unchanged contexts to the current manuscript. Word reports 25,740 main-text words. The evidence and calculations are unchanged. Final academic acceptance, remaining source checks and personal declarations remain open. All version-specific notices below are historical checkpoints, not the current status.
+
+**Latest proof review, 11 September 2026:** All 97 pages of the unchanged v29 proof now have documented visual inspection. Final acceptance remains open: two tables have detached notes, the sensitivity-table panel headings differ in style, and the Chapter 4 summary retains an explanation inconsistent with the revised methodology. These findings are recorded for correction; complete inspection is not proof of an error-free thesis.
+
+**Latest source-review checkpoint, 11 September 2026:** The v29 manuscript is unchanged. Citation supplement v29B adds four supported Cao/Zhang uses, giving 60 supported and 35 pending uses out of 95. Seventeen references have at least one supported use; eighteen still have pending uses. Those sets overlap because one Holweg/Pil introduction sentence remains unresolved. The Cao/Zhang check covers the current collaboration/performance propositions and firm-size qualification, not BMW-specific validation or other authors cited in the same paragraphs. Author-uploaded text was inspected; original PDF bytes and source-page images were not retained. Earlier counts below are historical checkpoints.
+
+This is the local research workspace for:
+
+**Beyond Blind Spots: Using Business Analytics to Assess Visibility and Coordination Complexity in BMW's Supplier Technology Ecosystem**
+
+For repository progress, open [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md). In the local workspace, `00_START_HERE/00_START_HERE.md` and `THESIS_CONTROL_CENTER.xlsx` provide the detailed master guide, navigation, evidence boundaries, inventory and decisions. Restricted local files are not available through GitHub.
+
+Thesis finalisation resumed on 10 September 2026 with authorization for routine revisions. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md) for the current work and verification boundaries. A versioned local successor ledger separates capability holds from unresolved claim-overlap holds. Calculations have been rerun and independently checked in the documented scope. The current working manuscript incorporates the corrected methods and results, with the abstract, discussion, conclusion and appendix now reconciled to the same calculation. It distinguishes independent evidence decisions, non-temporal coverage and classification-sensitive structural profiles. The unestimated combined priority measure is an explicit design limitation, not a claim that different measurement levels can never be combined. Full source, citation, submission-requirement and whole-document checks remain open. Working manuscripts and proof copies are not submission-ready.
+
+The 500 records are candidate supplier-technology links, not 500 verified BMW suppliers. Public-evidence gaps must not be presented as proof of missing internal BMW visibility or absent commercial relationships.
+
+The v17 working revision reconciles the explanation of the unestimated combined measure across the introduction, theory and discussion. It also removes an unmeasured visibility-improvement claim and remaining workflow language. All tables, figures and equations are preserved. The twelve changed proof pages were visually checked, and the 32 existing synthetic tests pass; neither check constitutes full source verification or final manuscript acceptance.
+
+The v18 checkpoint added a bounded four-reference citation audit and clarified the missing organisational validation of the structural measures. It corrected page locators, identified consulted preprint pagination, restored an article subtitle and made the compensatory scoring assumption explicit.
+
+The v19–v23 methodology-source review checked ten references. Sampling guidance is identified as an adaptation from qualitative research. The predictive-model discussion distinguishes audit-label prediction from independent supplier-event prediction and specifies task-appropriate validation conditions. No model was trained. Repeated conclusion and methodology recaps were shortened without changing the empirical results.
+
+The current local working successor is v29. It removes unsupported claims that an appropriate framework is absent from the literature, that the outputs have substantial diagnostic value, or that further public searching is necessarily insufficient. The revised argument distinguishes study-specific measurement requirements from demonstrated literature gaps. Earlier evidence and theory corrections remain intact. Citation coverage is unchanged: 52 supported uses across fifteen references and 43 pending uses across nineteen references. Three modified pending citation contexts remain pending; no source approval was added.
+
+Figure and table lists use twenty live page references, with their printed-page destinations checked against the current PDF. The 97-page proof has documented inspection coverage of 73 pages, including all nine changed pages since v28. The abbreviation-alignment defect is resolved; coverage is not final acceptance. Word reports 25,723 main-text words under the inspected introduction-to-conclusion boundary, within the supplied 25,000–30,000 requirement. The declaration still needs its final count update after remaining revisions. All 32 regression tests pass. Saved-document checks preserve all twenty tables' content, image files, 26 mathematical structures and 22 review-comment associations. Word normalises XML, so byte-identical equation or comment identifiers are not claimed. Evidence inputs and calculation outputs retain their hashes. The targeted gap and utility overclaims are repaired; remaining source and section reviews are still required. The theory repairs do not establish organisational construct validity or complete the combined research question.
+
+Sensitive manuscripts, administrative documents, raw supplier data, detailed evidence files and archives remain local and are excluded from Git.
+
+The finalisation regression suite is run with `python -m unittest discover -s 04_ANALYSIS/12_FINALISATION_20260910 -p 'test_*.py'`. Native Word-math tests require `python-docx` and `lxml`; they are available in the local bundled artifact runtime. Those tests check equation structure and package round-tripping, not rendered layout or academic validity.
+
+`reporting_tables.py` provides pure evidence-partition and category-support summaries with separate canonical-claim and primary-eligibility denominators. Its synthetic tests guard against double-counted aliases, unknown taxonomy states, invalid primary representatives and misleading treatment of non-estimable profile comparisons. The local manuscript builders and detailed reporting data remain excluded from Git.
