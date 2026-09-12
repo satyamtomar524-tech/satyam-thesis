@@ -1,6 +1,14 @@
 # Beyond Blind Spots
 
-## Current argument and method checkpoint: v62, 11 September 2026
+## Current data checkpoint: V5, 12 September 2026
+
+The corrected analytical successor is verified, but the saved v62 manuscript has not yet been updated to it. Three source-scope corrections and three supplier-identity reconciliations preserve all 316 primary claims while reducing the analytical supplier count from 180 to 177. Original supplier keys remain available for evidence joins; frozen V4 files are unchanged.
+
+V5 contains 218 supplier-category memberships, 2,577 positive overlap pairs out of 15,576 possible pairs, and profile counts of 96/64/2/15. Independent primary-network calculations agree. The source review remains incomplete; successful calculations do not certify every claim.
+
+**Needs revision; review completeness: Partial.** The next step is one coherent manuscript, table and figure update, followed by a fresh official word count and rendered review. The local side panel shows 67 of 525 frozen-checklist source checks (12.8% checked, 87.2% remaining), separately from the saved draft's citation coverage. These are not overall thesis completion percentages. Restricted evidence and manuscripts remain local. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md).
+
+## Historical argument and method checkpoint: v62, 11 September 2026
 
 The current working draft completes previously under-specified answers about technology families, identity decisions and conditional evidence follow-up. It separates supplier-category memberships from claim counts and category-overlap connections, and removes an unmeasured review-workload inference. All main chapters were read in this review. Seventeen paragraph repairs retain the frozen empirical results and all 95 bounded literature-citation decisions. This is not independent human review or full source verification.
 

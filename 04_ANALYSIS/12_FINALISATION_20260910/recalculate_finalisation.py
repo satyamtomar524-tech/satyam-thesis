@@ -16,6 +16,7 @@ from apply_scope_amendments import apply_amendments
 from date_sensitivity import analyse
 from evidence_holds import apply_holds
 from distinctness_holds import apply_distinctness_holds
+from apply_reviewed_corrections import apply_reviewed_corrections
 
 
 def digest(path: Path) -> str:
@@ -28,11 +29,14 @@ def write_json(path: Path, content) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--revision", choices=("v3", "v4"), default="v4")
+    parser.add_argument("--revision", choices=("v3", "v4", "v5"), default="v4")
     args = parser.parse_args()
     here = Path(__file__).resolve().parent
     root = here.parents[1]
     historical = here.parent / "11_CORRECTION_REVIEW_V2"
+    out = here / "local" / args.revision
+    if out.exists():
+        raise FileExistsError(f"Refusing to overwrite a frozen revision: {out}")
     paths = {
         "rows": historical / "revised_decisions.json",
         "inputs": historical / "revision_inputs.json",
@@ -43,12 +47,25 @@ def main() -> None:
     }
     if args.revision == "v4":
         paths["distinctness"] = here / "local/distinctness_hold_decisions.json"
+    if args.revision == "v5":
+        paths['rows'] = here / 'local/v4/revised_decisions.json'
+        paths['corrections'] = here / 'local/semantic_review_20260911/reviewed_corrections_v5.json'
+        del paths['scope'], paths['holds']
     hashes = {key: digest(path) for key, path in paths.items()}
     data = {key: json.loads(path.read_text(encoding="utf-8"))
             for key, path in paths.items() if key != "engine"}
-    scope, holds = data["scope"], data["holds"]
-    rows = apply_amendments(data["rows"], scope["amendments"], scope["review_date"])
-    rows = apply_holds(rows, holds["holds"], holds["review_date"])
+    scope, holds = data.get('scope', {'amendments': []}), data.get('holds', {'holds': []})
+    if args.revision == 'v5':
+        correction = data['corrections']
+        if correction['input_ledger_sha256'] != hashes['rows'] or correction['inputs_sha256'] != hashes['inputs']:
+            raise ValueError('Source corrections are not bound to these frozen inputs')
+        for item in correction['required_files']:
+            if digest(root / item['path']) != item['sha256']:
+                raise ValueError(f"Changed review evidence: {item['path']}")
+        rows = apply_reviewed_corrections(data['rows'], correction)
+    else:
+        rows = apply_amendments(data["rows"], scope["amendments"], scope["review_date"])
+        rows = apply_holds(rows, holds["holds"], holds["review_date"])
     if "distinctness" in data:
         rows = apply_distinctness_holds(rows, data["distinctness"]["holds"], data["distinctness"]["review_date"])
     if [r["Link_ID"] for r in rows] != [r["Link_ID"] for r in data["rows"]]:
@@ -58,7 +75,10 @@ def main() -> None:
     spec.loader.exec_module(module)
     print("Recalculating all retained network and sensitivity specifications", flush=True)
     calculation = module.calculate_all(root, rows, data["inputs"]["Link_Master_500"])
-    calculation["input_revision"] = f"FINALISATION_REVIEW_{args.revision.upper()}_20260910"
+    revision_date = '20260912' if args.revision == 'v5' else '20260910'
+    calculation["input_revision"] = f"FINALISATION_REVIEW_{args.revision.upper()}_{revision_date}"
+    if args.revision == 'v5':
+        calculation['supplier_identity_note'] = 'Supplier_ID is the reconciled analytical entity key. Source_Supplier_ID preserves the frozen key for evidence joins. Original Link_ID and canonical claim groups are unchanged; entity-key reconciliation is not claim deduplication.'
     calculation["engine_identity_note"] = "Internal CORRECTION_REVIEW_V2 labels identify the reusable calculation engine, not the input ledger. See input_revision and input_manifest."
     calculation["input_manifest"] = hashes
     dated = analyse(rows, data["inputs"]["Evidence_Log"],
@@ -91,8 +111,7 @@ def main() -> None:
         "exact_bmw_technology": sum(r["Exact_BMW_Technology_Revised"] for r in canonical),
         "eligible_student_review_flags": sum(bool(r["Primary_Eligible"] and r["Needs_Student_Review"]) for r in rows),
     }
-    out = here / "local" / args.revision
-    out.mkdir(parents=True, exist_ok=True)
+    out.mkdir(parents=True, exist_ok=False)
     write_json(out / "revised_decisions.json", rows)
     write_json(out / "calculation_output.json", calculation)
     write_json(out / "date_sensitivity.json", dated)
@@ -107,6 +126,8 @@ def main() -> None:
         "profile_counts": calculation["primary"]["profile_counts"],
         "sensitivity_run_count": len(calculation["sensitivity_runs"]),
         "independent_topology_agrees": True,
+        "source_corrections": len(data.get('corrections', {}).get('corrections', [])),
+        "supplier_aliases": len(data.get('corrections', {}).get('supplier_aliases', [])),
         "calculation_qa": calculation["qa"],
         "limitations": [
             "Not all source meanings or sensitivity calculations independently checked.",

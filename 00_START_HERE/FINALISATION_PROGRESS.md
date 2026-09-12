@@ -1,5 +1,43 @@
 # Thesis finalisation progress
 
+## Current checkpoint: verified V5 data; manuscript integration pending, 12 September 2026
+
+**Needs revision; review completeness: Partial.** V5 supersedes V4 for corrected analytical results. The saved v62 manuscript remains unchanged and therefore contains superseded values. Historical scorecards below do not certify its agreement with V5.
+
+Three source corrections remove an unsupported Oerlikon AM BMW relationship, recognize the narrowly announced Dürr EcoDryScrubber association in China, and narrow the Schuler battery-lid portfolio wording. Three documented supplier aliases reconcile analytical identities without deleting claims. Every original supplier key is retained for source joins.
+
+The primary dataset retains 316 claims and 17 categories, with 177 suppliers, 218 memberships and 2,577 positive overlap pairs out of 15,576 possible pairs (16.5447%). Profile counts are 96/64/2/15. Canonical BMW relationship support is 155 and exact technology association support is 37; the primary subset has 126 relationship-supported and 36 exact-supported claims. The date-restricted subset remains 69 claims and 48 suppliers.
+
+An independent implementation agrees on primary eligibility, topology, weighted edges, strength, shortest-path betweenness, evenness, profiles, the date subset and descriptive comparisons. The guarded correction manifest and an integrity receipt verify permitted field changes, original evidence joins and unchanged V4/manuscript hashes. All nine stored network topologies were checked; this does not independently certify every sensitivity centrality. Historical baseline key comparisons are not harmonized supplier entry/exit or longitudinal transitions.
+
+### Thesis quality
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Usefulness and completeness | 2 / unknown | V5 manuscript integration and the obsolete declaration count remain open. |
+| Analytical clarity | 0 / unknown | No newly confirmed wording defect counted here; full revised-draft review remains pending. |
+| Visual consistency | 0 / 100 | Unchanged v62 layout retains earlier page coverage; numerical agreement is not implied. |
+
+### Analytical correctness and robustness
+
+| Category | Observed defects | Assessment |
+| --- | --- | --- |
+| Source authority and confidence | 0 / unknown | The three identified source corrections are applied; broader source verification is incomplete. |
+| Value accuracy | 1 / unknown | The manuscript's empirical bundle still uses V4 values; V5 primary calculations independently agree. |
+| Within-chart agreement | 5 / 6 | Five existing figures require numerical updating; the category claim-count figure is unchanged. |
+| Complete source-detail surfaces | N/A | Dashboard source-detail controls do not apply to the manuscript. |
+| Cross-artifact consistency | 1 / unknown | V62 manuscript and V5 analytical successor are not yet reconciled. |
+| Data-quality controls | 0 / unknown | Scoped alias, field-change, hash and evidence-join checks pass; not a full source census. |
+| Conclusion support | 1 / unknown | Quantitative research-question answers require reconciliation with V5. |
+
+Search identified 59 paragraph and 14 table candidates for review, not automatically confirmed defects or replacement instructions. Five figures have known changed inputs. Do not apply blind global numeric replacements or rerun old integration scripts against the latest manuscript.
+
+The side panel refreshes every five seconds from saved audit records. It now counts 67 unique completed checks out of the frozen V4 525-unit checklist: 12.8% checked and 87.2% remaining. It does not represent V5 source-review coverage or whole-thesis completion. The saved v62 citation bar remains separate. Five panel tests pass, including receipt reload and invalid-version handling; browser readback confirms the updated values and refresh timestamp.
+
+**Next:** integrate V5 consistently into a successor manuscript, tables and five affected figures; review the baseline-key caveat; recalculate the official declaration count after those changes; verify the saved document and rendered pages. The figure-inclusive v62 reconciliation of 26,907 is a diagnostic predecessor count, not the final successor declaration. Student reading, understanding and truthful personal declarations remain student-owned. Restricted materials stay local.
+
+All notices below are historical.
+
 ## Current argument and method checkpoint: v62
 
 **Needs revision; review completeness: Partial.** Current local manuscript: `02_MANUSCRIPT_APA/revision_source/Thesis_Master_APA_v62_FIELDS_WORKING.docx`. The main argument review read the abstract and all six main chapters, checked alignment with the research questions, and independently recomputed the principal calculations. Seventeen paragraph repairs clarify units, complete the first three supporting-question answers, bound the research-verification sequence and remove an unmeasured workload inference. The fourth supporting question retains its qualified robustness answer. No frozen empirical input or result changed. Authority: local v62 checkpoint, visual coverage, citation reconciliation, review coverage and the hash-bound argument review receipts.
