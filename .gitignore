@@ -138,7 +138,10 @@ build/
 /tmp/
 
 # Authorized, local-only evidence correction and recalculation review.
-/04_ANALYSIS/11_CORRECTION_REVIEW_V2/
+/04_ANALYSIS/11_CORRECTION_REVIEW_V2/*
+!/04_ANALYSIS/11_CORRECTION_REVIEW_V2/revision_calculations.py
+# Private analytical review workbook and its QA exports.
+/outputs/01a082a2-06bb-75b2-ae3f-9b51fbb99a32/
 # Finalisation evidence, row-level checks and rendered manuscript drafts stay local.
 /04_ANALYSIS/12_FINALISATION_20260910/local/
 /04_ANALYSIS/12_FINALISATION_20260910/independent/

@@ -7,9 +7,13 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import importlib.metadata
 import importlib.util
 import json
-from datetime import date
+import platform
+import sys
+import time
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from apply_scope_amendments import apply_amendments
@@ -27,16 +31,58 @@ def write_json(path: Path, content) -> None:
     path.write_text(json.dumps(content, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8")
 
 
-def main() -> None:
+def semantic_json_digest(content) -> str:
+    """Compare JSON content without changing historical output serialization."""
+    canonical = json.dumps(content, sort_keys=True, separators=(",", ":"),
+                           ensure_ascii=False, allow_nan=False).encode("utf-8")
+    return hashlib.sha256(canonical).hexdigest()
+
+
+def argument_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--revision", choices=("v3", "v4", "v5"), default="v4")
-    args = parser.parse_args()
+    parser.add_argument("--output", type=Path,
+                        help="New directory under this finalisation folder's ignored local/ tree. "
+                             "Relative paths resolve from the current directory. Existing paths are never overwritten.")
+    return parser
+
+
+def resolve_output(here: Path, revision: str, requested: Path | None) -> Path:
+    private_root = (here / "local").resolve()
+    candidate = requested if requested is not None else private_root / revision
+    if candidate.is_symlink():
+        raise FileExistsError(f"Refusing an existing symbolic-link output path: {candidate}")
+    output = candidate.resolve()
+    if output == private_root or not output.is_relative_to(private_root):
+        raise ValueError(f"Output must be a new directory beneath the ignored local tree: {private_root}")
+    for frozen_revision in ("v3", "v4", "v5"):
+        frozen = private_root / frozen_revision
+        if output != frozen and output.is_relative_to(frozen):
+            raise ValueError(f"Output must not be placed inside a frozen revision: {frozen}")
+    if output.exists():
+        raise FileExistsError(f"Refusing to overwrite an existing output or frozen revision: {output}")
+    return output
+
+
+def code_dependencies(here: Path) -> list[Path]:
+    """Complete source closure imported by the V5 CLI, including historical imports."""
+    return [here / f"{name}.py" for name in (
+        "recalculate_finalisation", "apply_scope_amendments", "date_sensitivity",
+        "evidence_holds", "distinctness_holds", "apply_reviewed_corrections",
+    )] + [here.parent / "11_CORRECTION_REVIEW_V2/revision_calculations.py",
+          here.parent / "05_NETWORK_ANALYSIS/C3_construct_network.py",
+          here.parent / "07_SENSITIVITY_ANALYSIS/C5_run_sensitivity_tests.py"]
+
+
+def main() -> None:
+    args = argument_parser().parse_args()
     here = Path(__file__).resolve().parent
     root = here.parents[1]
     historical = here.parent / "11_CORRECTION_REVIEW_V2"
-    out = here / "local" / args.revision
-    if out.exists():
-        raise FileExistsError(f"Refusing to overwrite a frozen revision: {out}")
+    out = resolve_output(here, args.revision, args.output)
+    started_utc = datetime.now(timezone.utc).isoformat()
+    started_clock = time.monotonic()
+    code_hashes = {path.relative_to(root).as_posix(): digest(path) for path in code_dependencies(here)}
     paths = {
         "rows": historical / "revised_decisions.json",
         "inputs": historical / "revision_inputs.json",
@@ -138,6 +184,33 @@ def main() -> None:
         ],
     }
     write_json(out / "recalculation_validation.json", summary)
+    for relative, expected in code_hashes.items():
+        if digest(root / relative) != expected:
+            raise AssertionError(f"Code changed during execution: {relative}")
+    output_names = ("revised_decisions.json", "calculation_output.json", "date_sensitivity.json",
+                    "recalculation_validation.json")
+    # Separate execution metadata avoids changing the identity of the frozen
+    # calculation payloads. Raw hashes and canonical-content hashes serve
+    # different purposes; dictionary insertion order can alter only the former.
+    write_json(out / "execution_receipt.json", {
+        "input_revision": calculation["input_revision"],
+        "started_utc": started_utc, "finished_utc": datetime.now(timezone.utc).isoformat(),
+        "elapsed_seconds": time.monotonic() - started_clock,
+        "output_directory": str(out), "code_sha256": code_hashes,
+        "code_unchanged_during_execution": True, "input_sha256": hashes,
+        "runtime": {"python": sys.version, "python_executable": sys.executable,
+                    "platform": platform.platform(), "openpyxl": importlib.metadata.version("openpyxl")},
+        "output_sha256": {name: digest(out / name) for name in output_names},
+        "semantic_json_sha256": {name: semantic_json_digest(content) for name, content in (
+            ("revised_decisions.json", rows), ("calculation_output.json", calculation),
+            ("date_sensitivity.json", dated))},
+        "semantic_hash_method": "SHA-256 of UTF-8 json.dumps with sorted keys, compact separators, "
+                                "ensure_ascii=False and allow_nan=False; no historical file is rewritten.",
+        "limitations": ["Execution provenance and content comparison, not independent source verification.",
+                        "A matching semantic hash does not imply byte-identical serialization.",
+                        "The historical V5 figure builder still pins frozen raw input hashes and cannot "
+                        "automatically consume a byte-different, content-equivalent rerun."],
+    })
     print(json.dumps({k: v for k, v in summary.items() if k not in
                       ("input_sha256", "output_sha256", "calculation_qa")}, indent=2))
 

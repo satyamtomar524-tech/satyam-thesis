@@ -1,12 +1,18 @@
 # Beyond Blind Spots
 
-## Current data checkpoint: V5, 12 September 2026
+## Current review checkpoint: manuscript v65 and V5 data, 12 September 2026
 
-The corrected analytical successor is verified, but the saved v62 manuscript has not yet been updated to it. Three source-scope corrections and three supplier-identity reconciliations preserve all 316 primary claims while reducing the analytical supplier count from 180 to 177. Original supplier keys remain available for evidence joins; frozen V4 files are unchanged.
+The local v65 manuscript, tables and figures now incorporate the V5 analytical results. Three source-scope corrections and three supplier-identity reconciliations preserve all 316 primary claims while reducing the analytical supplier count from 180 to 177. Original supplier keys remain available for evidence joins; frozen V4 and V5 files are unchanged.
 
-V5 contains 218 supplier-category memberships, 2,577 positive overlap pairs out of 15,576 possible pairs, and profile counts of 96/64/2/15. Independent primary-network calculations agree. The source review remains incomplete; successful calculations do not certify every claim.
+V5 contains 218 supplier-category memberships, 2,577 positive overlap pairs out of 15,576 possible pairs, and profile counts of 96/64/2/15. Independent checks cover the primary calculations and an additional N01–N06 / R01–R15 sensitivity audit. Those sensitivity centralities, displayed scores, classifications and agreement denominators agree. A limited distinct-score metadata defect is documented separately: Decimal arithmetic can count a mathematical tie twice. This measure is not used in the v65 text or figures. Successful calculations do not certify every supplier claim.
 
-**Needs revision; review completeness: Partial.** The next step is one coherent manuscript, table and figure update, followed by a fresh official word count and rendered review. The local side panel shows 67 of 525 frozen-checklist source checks (12.8% checked, 87.2% remaining), separately from the saved draft's citation coverage. These are not overall thesis completion percentages. Restricted evidence and manuscripts remain local. See [Finalisation progress](00_START_HERE/FINALISATION_PROGRESS.md).
+The saved v65 review has 100 pages and a reconciled figure-inclusive count of 27,017 words: 26,570 main-text words plus 447 words embedded in self-created figures. All 95 recorded literature-citation uses retain their bounded passage/abstract checks, not full-article certification. Personal declarations, understanding and signatures are not assumed.
+
+The new local analytical workbook separates preserved claim flags, source interpretations, network results, sensitivity denominators and recorded-date decisions. Current source-review companions retain historical records and distinguish capability from a BMW relationship. Two further Dürr records require explicit affiliate/time boundaries; the original DIEFFENBACHER 2017 PDF remains unavailable, with indexed details kept separate from generic live corroboration.
+
+The core V5 calculation has been rerun in an isolated private folder and reproduces all JSON values. The supported command now accepts a safe new output destination, records all nine code hashes and refuses overwrites. See [V5 reproduction instructions](04_ANALYSIS/12_FINALISATION_20260910/REPRODUCIBILITY.md). The legacy figure builder still pins raw file hashes and is not a complete fresh-run presentation pipeline.
+
+**Needs revision; not submission-ready.** Remaining work includes unresolved supplier source/entity decisions, integration of the latest bounded audit scope into a future manuscript checkpoint, and the student's final reading and truthful declarations. Restricted manuscripts, source records, detailed audit receipts and analytical workbooks remain local. Notices below are historical, not current authority.
 
 ## Historical argument and method checkpoint: v62, 11 September 2026
 
