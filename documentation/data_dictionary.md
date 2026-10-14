@@ -1,6 +1,6 @@
 # Data dictionary
 
-This is the controlled field specification for the unified supplier-technology evidence dataset. Fields may be added only when their meaning, source, and admissible interpretation are documented.
+This is the proposed field specification from the initial project outline. The example CSV files below are not included on `main`. Document each field's meaning, source, and interpretation before using it. [Back to the project](../README.md).
 
 ## Core supplier-technology table
 

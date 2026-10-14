@@ -1,5 +1,7 @@
 # Scripts
 
+These are reserved folders; no runnable scripts are included on `main`. [Back to the project](../README.md).
+
 Store reusable transformations by language:
 
 - `python/` for data preparation, quality checks, network analysis, and modeling;

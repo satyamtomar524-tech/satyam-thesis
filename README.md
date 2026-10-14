@@ -1,58 +1,25 @@
 # Beyond Blind Spots: Using Business Analytics to Assess Visibility and Coordination Complexity in BMW's Supplier Technology Ecosystem
 
-This repository is the reproducible research workspace for Satyam Tomar's master's thesis. It connects evidence collection, data preparation, analysis, figures, tables, and chapter writing while keeping the thesis's evidential limits explicit.
+Public notes and a folder structure for my master's thesis on supplier-technology evidence.
 
-## Research boundary
+**Status:** this `main` branch is the original project outline. Most folders are placeholders. It does not contain a runnable analysis, a published dataset, or the completed thesis.
 
-The empirical object is a publicly evidenced representation of a supplier technology ecosystem. Repository outputs may identify observable evidence gaps and structural coordination-complexity proxies. They must not be presented as proof of BMW's complete supplier network, BMW's internal visibility, supplier performance, coordination failure, or verified supplier-to-supplier commercial relationships.
+## Start here
 
-## Working flow
-
-```text
-Research question
-      ↓
-Public evidence and provenance log
-      ↓
-Raw/local and external evidence → cleaning scripts → cleaned data
-      ↓
-Notebooks and reproducible analyses → validated final data
-      ↓
-Figures and tables → results → discussion → conclusion
-      ↓
-Reviewed commit and GitHub history
-```
-
-## Repository map
-
-| Path | Purpose |
+| I want to… | Open |
 | --- | --- |
-| `data/raw/` | Local-only source material; contents are ignored by Git |
-| `data/external/` | Public external evidence or documented extracts that are safe to retain |
-| `data/cleaned/` | Script-generated, normalized data |
-| `data/final/` | Validated analysis-ready tables |
-| `scripts/` | Reusable Python, R, and SQL transformations |
-| `notebooks/` | Reproducible exploration and model experiments |
-| `analysis/` | Descriptive, supplier, complexity, and statistical outputs |
-| `figures/` and `tables/` | Thesis-ready visual and tabular outputs |
-| `thesis/` | Chapter working files |
-| `documentation/` | Data dictionary, methodology decisions, workflow, and analysis log |
-| `powerbi/`, `spss/`, `knime/` | Tool-specific project artifacts |
-| `references/` | Reference-management exports and source notes |
+| Understand the research approach | [Methodology notes](documentation/methodology_notes.md) |
+| Understand the proposed fields | [Data dictionary](documentation/data_dictionary.md) |
+| Find the right data folder | [Data guide](data/README.md) |
+| See recorded decisions | [Analysis log](documentation/analysis_log.md) |
+| Find files and work with Codex | [Working guide](documentation/collaboration_workflow.md) |
 
-## Reproducibility rules
+Code belongs in [scripts](scripts/) or [notebooks](notebooks/); results in [analysis](analysis/), [figures](figures/), or [tables](tables/). [Chapter folders](thesis/) and [references](references/) are reserved for writing. The KNIME, Power BI, and SPSS folders are also placeholders.
 
-1. Preserve reported source values; perform normalization only in derived data.
-2. Give every supplier-technology record a stable identifier and provenance record.
-3. Record source URL, source type, publication date when known, retrieval date, and verification status.
-4. Generate cleaned and final data with scripts or documented notebook steps.
-5. Keep model features separate from any observed target variable and document leakage checks.
-6. Record every consequential analytical decision in `documentation/analysis_log.md`.
-7. Commit only material that is public, licensed, authorized, or safely derived.
+A `.gitkeep` file simply keeps an empty folder visible. There is nothing to install to read these notes.
 
-## Confidentiality
+## Research limits and privacy
 
-Do not commit BMW-origin workbooks, project briefs, personal records, or other restricted material without written authorization. The known local thesis workbook, thesis document, and official confirmation are intentionally excluded from Git tracking by `.gitignore`.
+Public evidence does not reveal BMW's complete supplier network, internal visibility, supplier performance, or actual coordination difficulty. Sharing a technology category does not prove that two suppliers work together.
 
-## Current status
-
-The project structure and governance files are initialized. Data ingestion, source verification, quality assessment, and modeling remain separate controlled steps.
+These notes describe the initial plan, not the final local thesis method. Manuscripts, administrative documents, personal records, restricted workbooks, and raw source material stay local. Review each file before publishing it.

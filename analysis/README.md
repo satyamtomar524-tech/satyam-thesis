@@ -1,5 +1,7 @@
 # Analysis areas
 
+These are planned analysis areas. No results are included on `main`. [Back to the project](../README.md).
+
 | Area | Intended use |
 | --- | --- |
 | `descriptive/` | Coverage, distributions, missingness, duplicates, and data-quality summaries |

@@ -1,5 +1,7 @@
 # Data workflow
 
+These folders are placeholders on `main`; no dataset is published here. [Back to the project](../README.md).
+
 Data moves forward through four controlled stages. A file should never be edited in place across stages.
 
 | Stage | Meaning | Git policy |

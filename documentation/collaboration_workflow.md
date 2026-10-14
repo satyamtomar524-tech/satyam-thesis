@@ -1,35 +1,29 @@
-# GitHub, ChatGPT, and Codex workflow
+# Working with this repository
 
-## Roles
+[Back to the project](../README.md)
 
-- **GitHub** is the versioned source of truth for safe project files, decisions, code, and reproducible outputs.
-- **ChatGPT** supports research planning, explanation, drafting discussion, and source-aware reasoning.
-- **Codex** edits workspace files, runs scripts and checks, prepares commits, and synchronizes reviewed changes with GitHub.
+GitHub holds the published files and their history. The local thesis workspace contains more material, including private files. A local change appears on GitHub only after it is committed and pushed.
 
-## Smooth working cycle
+## Find a file
 
-```text
-Question or evidence found
-        ↓
-Record the source and narrow claim
-        ↓
-Add or update data through a reproducible script
-        ↓
-Run data-quality and analytical checks
-        ↓
-Review figures, tables, interpretation, and limitations
-        ↓
-Update the relevant thesis chapter and analysis log
-        ↓
-Commit one coherent, reviewed change to GitHub
-```
+1. Start with the links in the [project README](../README.md).
+2. Open the folder you need, then its `README.md`.
+3. Read the [data dictionary](data_dictionary.md) for field meanings or the [analysis log](analysis_log.md) for recorded decisions.
 
-## Commit discipline
+The default `main` branch is the public project outline. Do not treat an empty folder as a finished dataset or analysis.
 
-A commit should answer one question: what changed and why? Do not mix unrelated data, analysis, and writing changes. Before pushing, inspect the staged file list and confirm that no restricted binary or raw source file is included.
+## Ask for help
 
-Suggested branch names include `data/source-audit`, `analysis/visibility-scores`, `analysis/network-metrics`, and `thesis/chapter-03-methodology`.
+Give Codex the repository name, file path, and one clear task. For example:
 
-## Evidence rule
+> In satyam-thesis, explain `documentation/data_dictionary.md` in simple language. Do not change files.
 
-Research planning may begin from a hypothesis, but repository claims must end at the strongest verified evidence actually available. Missing public evidence is recorded as an observable evidence gap, not as proof of missing internal BMW information.
+> In satyam-thesis, tidy the public README and show me the changes. Keep private thesis files local.
+
+> Find the file that explains the research limits and give me its path.
+
+## Make a change
+
+Keep one task small: edit the relevant file, check the result, and review exactly which files will be published. Use a short commit message that says what changed. Record analytical decisions in the [analysis log](analysis_log.md).
+
+Before publishing, check for private data, personal details, restricted source files, and unsupported claims. A Git ignore rule is a safeguard, not proof that a file is safe to share.

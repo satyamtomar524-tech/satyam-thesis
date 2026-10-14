@@ -2,6 +2,8 @@
 
 Record consequential changes in chronological order. Each entry should state the decision, rationale, affected files, checks performed, and unresolved limitations.
 
+Entries describe the state on their recorded date. The GitHub connection note from August is historical. [Back to the project](../README.md).
+
 ## 2026-08-23 — Repository foundation initialized
 
 - Created the requested data, script, notebook, analysis, tool, output, thesis, reference, and documentation structure.

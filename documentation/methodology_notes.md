@@ -1,5 +1,7 @@
 # Methodology notes
 
+Initial research plan for the public project outline. These notes are not a report of completed analysis or the final local thesis method. [Back to the project](../README.md).
+
 ## Fixed analytical boundary
 
 The project studies a publicly evidenced representation of BMW's supplier technology ecosystem. It does not reconstruct BMW's complete confidential network and does not measure BMW's internal information systems, actual coordination effort, operational failure, delay, cost, or resilience.
